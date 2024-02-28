@@ -10216,6 +10216,11 @@
     "picocolors" "^1.0.0"
     "stable" "^0.1.8"
 
+"swiper@^11.0.7":
+  "integrity" "sha512-cDfglW1B6uSmB6eB6pNmzDTNLmZtu5bWWa1vak0RU7fOI9qHjMzl7gVBvYSl34b0RU2N11HxxETJqQ5LeqI1cA=="
+  "resolved" "https://registry.npmjs.org/swiper/-/swiper-11.0.7.tgz"
+  "version" "11.0.7"
+
 "symbol-tree@^3.2.4":
   "integrity" "sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw=="
   "resolved" "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"

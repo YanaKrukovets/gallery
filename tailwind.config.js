@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      arial: ["Arial"],
+      inka: ["Inika"],
     },
     screens: {
       xxxl: { max: "2000px" },

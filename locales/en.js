@@ -27,7 +27,7 @@ export default {
     terms_url: "/link",
     contact_text: "Contact Us",
     contact_url: "/link",
-    text: "© 2023. All rights reserved.",
+    text: "© 2024. All rights reserved.",
   },
 
   home: {

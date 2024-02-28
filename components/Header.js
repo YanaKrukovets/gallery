@@ -21,19 +21,19 @@ export default function Header() {
 
   if (locale === "en") {
     nav = {
-      item2: {
-        img: "/images/icons/book-icon.png",
+      item1: {
+        img: "/images/icons/artworks-icon.png",
         alt: "book icon",
         label:
-          "<span class='whitespace-nowrap lg:whitespace-normal'>About the books</span>",
-        href: "/about",
+          "<span class='whitespace-nowrap lg:whitespace-normal font-inka'>Artworks</span>",
+        href: "/artworks",
       },
-      item3: {
-        img: "/images/icons/about-girl-author-icon.png",
+      item2: {
+        img: "/images/icons/artist-icon.png",
         alt: "author icon",
         label:
-          "<span class='whitespace-nowrap lg:whitespace-normal'>About the author</span>",
-        href: "link3",
+          "<span class='whitespace-nowrap lg:whitespace-normal font-inka'>About the artist</span>",
+        href: "/about-artist",
       },
     };
   } else {

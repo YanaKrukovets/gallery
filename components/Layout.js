@@ -24,7 +24,7 @@ export default function Layout({ children }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-        <title>Luna the guinea pig. Kids book</title>
+        <title>Online Art Gallery by Yana Krukovets</title>
         <meta
           name="description"
           content="Children's story books about the guinea pigs."

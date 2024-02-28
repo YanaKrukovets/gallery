@@ -17,23 +17,10 @@ export default function HomePage() {
     <>
       <HomeBannerNew />
       <div className="max-w-wrapper mx-auto px-5 my-[50px]">
-        <h1 className="text-textColor text-[24px] mb-[20px] border-b-[3px] border-[#83C5BE] uppercase max-w-[350px]">
-          <strong>Most recent</strong>
+        <h1 className="text-[24px] mb-[20px] border-b-[3px] border-[#83C5BE] uppercase max-w-[350px] font-inka">
+          Most recent
         </h1>
-        <div>
-          <Link href="/honeycomb-land" className="book-cover">
-            <Image
-              src="/images/pages/home/honeycomb-land-book.png"
-              alt="Honeycomb Land book cover"
-              width={1633}
-              height={1907}
-              className="max-w-[250px]"
-            />
-            <strong className="text-[20px] book-title text-middleGray">
-              {t.home.honeycomb}
-            </strong>
-          </Link>
-        </div>
+        <div></div>
       </div>
     </>
   );
