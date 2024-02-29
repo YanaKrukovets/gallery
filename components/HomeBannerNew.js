@@ -28,27 +28,42 @@ export default function HomeBannerNew() {
             }}
             loop={true}
             modules={[Navigation, EffectFade, Autoplay]}
-            autoplay={{ delay: 2000, disableOnInteraction: false }}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
             slidesPerView={1}
             keyboard={{
               enabled: true,
               onlyInViewport: true,
             }}
-            className="h-96 w-full rounded-lg"
+            className="h-96 w-full"
           >
             <SwiperSlide>
-              <div className="flex h-full w-full items-center justify-center">
-                Slide1
+              <div className="flex h-full w-full items-end justify-center">
+                <Image
+                  src="/images/slider/slide1.webp"
+                  alt="Big moon on the night sky. Three deers on the white snow"
+                  width={2000}
+                  height={550}
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex h-full w-full items-center justify-center">
-                Slide2
+                <Image
+                  src="/images/slider/slide2.webp"
+                  alt="Orange modern abstract artwork"
+                  width={2000}
+                  height={550}
+                />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex h-full w-full items-center justify-center">
-                Slide3
+                <Image
+                  src="/images/slider/slide3.webp"
+                  alt="Green modern abstract art work with the purple rectangles"
+                  width={2000}
+                  height={550}
+                />
               </div>
             </SwiperSlide>
           </Swiper>

@@ -85,7 +85,7 @@ export default function Header() {
       <header className="fixed top-0 w-full bg-[#ffffff]">
         {/*Header Nav*/}
         <nav className="max-w-inner md:flex justify-between !xxx:px-0">
-          <div className="logo text-grey flex justify-between max-w-wrapper px-5 sm:px-2 mx-auto w-full">
+          <div className="logo text-grey flex justify-between max-w-wrapper px-5 sm:px-2 mx-auto w-full mb-3">
             {/* Logo */}
             <div className="logo flex justify-between">
               <div className="w-[331px] mdlg:w-[200px] md:w-[185px]">
