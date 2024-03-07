@@ -200,9 +200,29 @@ export default function Artworks() {
       description:
         "Black tree on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
+    {
+      src: "/images/components/artworks/space4.webp",
+      alt: "Black trees on the black space background with purple nothern lights",
+      width: 150,
+      height: 70,
+      name: "Trees at night",
+      size: "round, diameter - 4 inch",
+      description:
+        "Black trees on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+    },
+    {
+      src: "/images/components/artworks/space5.webp",
+      alt: "Black tree on the black space background with purple nothern lights",
+      width: 150,
+      height: 70,
+      name: "Night tree",
+      size: "round, diameter - 4 inch",
+      description:
+        "Black tree on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+    },
   ];
 
-  const allImages = [...petr, ...images1];
+  const allImages = [...space, ...petr, ...images1];
   const [images, setImages] = useState(allImages);
 
   return (
