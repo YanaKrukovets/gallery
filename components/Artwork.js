@@ -2,11 +2,8 @@ import React from "react";
 import { useRouter } from "next/router";
 import en from "../locales/en";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 
-import HomeBannerNew from "./HomeBannerNew";
-import Modal from "./Modal";
 import fr from "../locales/fr";
 
 export default function Artwork({ image }) {
@@ -27,7 +24,7 @@ export default function Artwork({ image }) {
 
   return (
     <>
-      <div className="py-[10px] px-[25px] border-green border-[2px]">
+      <div className="py-[10px] px-[25px] bg-white shadow-lg ml-[20px] mb-[20px] transition-transform duration-300 transform hover:scale-110 max-h-[300px]">
         <a href="#" onClick={openModal}>
           <Image
             src={image.src}
