@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       inka: ["Inika"],
+      anek: ["Anek Latin"],
     },
     screens: {
       xxxl: { max: "2000px" },
@@ -28,12 +29,13 @@ module.exports = {
       xxxs: { max: "305px" },
     },
     colors: {
+      green: "#83C5BE",
       gray: "#555B5E",
-      textColor: "#314858",
+      textColor: "#25323c",
       lightGray: "#DCDCDC",
       yellow: "#FAED1A",
       middleGray: "#616060",
-      green: "#2E8084",
+
       lightBlue: "#EEF7F8",
       white: "#FFFFFF",
       danger: "#ff3333",

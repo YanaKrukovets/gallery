@@ -17,7 +17,7 @@ export default function HomePage() {
     <>
       <HomeBannerNew />
       <div className="max-w-wrapper mx-auto px-5 my-[50px]">
-        <h1 className="text-[24px] mb-[20px] border-b-[3px] border-[#83C5BE] uppercase max-w-[350px] font-inka">
+        <h1 className="text-[24px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
           Most recent
         </h1>
         <div></div>
