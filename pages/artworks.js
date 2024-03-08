@@ -171,6 +171,36 @@ export default function Artworks() {
 
   const space = [
     {
+      src: "/images/components/artworks/space6.webp",
+      alt: "Black tree on the black space background with orange lights",
+      width: 150,
+      height: 70,
+      name: "Night view",
+      size: "round, diameter - 4 inch",
+      description:
+        "Black tree on the orange-black space background. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+    },
+    {
+      src: "/images/components/artworks/space8.webp",
+      alt: "Gray moon",
+      width: 150,
+      height: 70,
+      name: "Gray moon",
+      size: "round, diameter - 4 inch",
+      description:
+        "Gray moon. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+    },
+    {
+      src: "/images/components/artworks/space7.webp",
+      alt: "Mountains on the black space background with orange lights",
+      width: 150,
+      height: 70,
+      name: "Night mountains",
+      size: "round, diameter - 4 inch",
+      description:
+        "Night mountains on the purple-black space background. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+    },
+    {
       src: "/images/components/artworks/space1.webp",
       alt: "Black tree on the black space background with purple and orange stars",
       width: 150,
