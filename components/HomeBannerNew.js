@@ -37,7 +37,7 @@ export default function HomeBannerNew() {
             className="h-96 w-full"
           >
             <SwiperSlide>
-              <div className="flex h-full w-full items-end justify-center">
+              <div className="flex h-full w-full items-center justify-center">
                 <Image
                   src="/images/slider/slide1.webp"
                   alt="Big moon on the night sky. Three deers on the white snow"

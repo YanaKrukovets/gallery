@@ -191,6 +191,26 @@ export default function Artworks() {
         "Gray moon. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
+      src: "/images/components/artworks/space10.webp",
+      alt: "Blue Neptune",
+      width: 150,
+      height: 70,
+      name: "Neptune",
+      size: "round, diameter - 4 inch",
+      description:
+        "Blue Neptune. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+    },
+    {
+      src: "/images/components/artworks/space11.webp",
+      alt: "Red Mars",
+      width: 150,
+      height: 70,
+      name: "Mars",
+      size: "round, diameter - 4 inch",
+      description:
+        "Red Mars. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+    },
+    {
       src: "/images/components/artworks/space7.webp",
       alt: "Mountains on the black space background with orange lights",
       width: 150,
@@ -250,10 +270,104 @@ export default function Artworks() {
       description:
         "Black tree on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
+    {
+      src: "/images/components/artworks/space9.webp",
+      alt: "Black tree on the black space background with purple nothern lights",
+      width: 150,
+      height: 70,
+      name: "Milky Way",
+      size: "round, diameter - 4 inch",
+      description:
+        "Black tree on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+    },
   ];
 
-  const allImages = [...space, ...petr, ...images1];
+  const canvas = [
+    {
+      src: "/images/components/artworks/canvas1.webp",
+      alt: "Three deers on the snow. Night view with big moon",
+      width: 150,
+      height: 70,
+      name: "Three deers",
+      size: "16 inch X 12 inch",
+      b: "my-[15px]",
+      description:
+        "Three deers on the snow. Night view with big moon. Acrilic hand-painting. 100% bleached cotton.",
+    },
+    {
+      src: "/images/components/artworks/canvas2.webp",
+      alt: "Purple dots and purple rectangles on the green-yellow background",
+      width: 150,
+      height: 70,
+      name: "Purple road",
+      size: "16 inch X 12 inch",
+      b: "my-[15px]",
+      description:
+        "Purple dots and purple rectangles on the green-yellow background. Abstract acrilic hand-painting. 100% bleached cotton.",
+    },
+    {
+      src: "/images/components/artworks/canvas5.webp",
+      alt: "An orange abstract",
+      width: 150,
+      height: 70,
+      name: "An orange day",
+      size: "16 inch X 20 inch",
+      b: "my-[15px]",
+      description:
+        "An orange abstract. Abstract acrilic hand-painting. 100% bleached cotton.",
+    },
+    {
+      src: "/images/components/artworks/canvas4.webp",
+      alt: "Night sky, black with white stars",
+      width: 150,
+      height: 70,
+      name: "Night sky",
+      size: "10 inch X 10 inch",
+      b: "my-[5px]",
+      description:
+        "Night sky, black with the white stars. Acrilic hand-painting. 100% bleached cotton.",
+    },
+    {
+      src: "/images/components/artworks/canvas3.webp",
+      alt: "Colorful butterfly on the white background",
+      width: 150,
+      height: 70,
+      name: "Butterfly",
+      size: "10 inch X 10 inch",
+      b: "my-[5px]",
+      description:
+        "Colorful butterfly on the white background. Acrilic hand-painting. 100% bleached cotton.",
+    },
+    {
+      src: "/images/components/artworks/canvas6.webp",
+      alt: "Colorful flowers",
+      width: 150,
+      height: 70,
+      name: "Spring",
+      size: "8 inch X 10 inch",
+      description:
+        "Colorful flowers. Acrilic hand-painting. Canvas papper. 100% bleached cotton.",
+    },
+    {
+      src: "/images/components/artworks/canvas7.webp",
+      alt: "Gold Eiffel Tower with the night background",
+      width: 150,
+      height: 70,
+      name: "Paris",
+      size: "8 inch X 10 inch",
+      description:
+        "Gold Eiffel Tower with the night background. Canvas papper. 100% bleached cotton.",
+    },
+  ];
+
+  const allImages = [...space, ...canvas, ...petr, ...images1];
   const [images, setImages] = useState(allImages);
+
+  const [active1, setActive1] = useState(true);
+  const [active2, setActive2] = useState(false);
+  const [active3, setActive3] = useState(false);
+  const [active4, setActive4] = useState(false);
+  const [active5, setActive5] = useState(false);
 
   return (
     <>
@@ -268,16 +382,23 @@ export default function Artworks() {
         <div className="max-w-wrapper px-5 mx-auto">
           <div className="flex w-full bg-lightGray justify-between">
             <div className="py-[10px] border-l-[2px] border-r-[2px] border-green bg-white">
-              <h2 className="text-[22px] font-anek border-b-[4px] border-green pb-[10px] mt-[30px] pl-[3px]">
+              <h2 className="text-[22px] font-anek border-b-[4px] border-green pb-[10px] mt-[30px] pl-[15px]">
                 <strong className="font-[600]">Filter</strong>
               </h2>
               <div className="flex flex-col">
                 <a
                   onClick={() => {
                     setImages(allImages);
+                    setActive1(true);
+                    setActive2(false);
+                    setActive3(false);
+                    setActive4(false);
+                    setActive5(false);
                   }}
                   href="#"
-                  className="border-b-[2px] border-green p-[10px]"
+                  className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                    active1 ? "bg-lightGray" : ""
+                  }`}
                 >
                   All artworks
                 </a>
@@ -285,36 +406,65 @@ export default function Artworks() {
                 <a
                   onClick={() => {
                     setImages(space);
+
+                    setActive1(false);
+                    setActive2(true);
+                    setActive3(false);
+                    setActive4(false);
+                    setActive5(false);
                   }}
                   href="#"
-                  className="border-b-[2px] border-green p-[10px]"
+                  className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                    active2 ? "bg-lightGray" : ""
+                  }`}
                 >
                   <strong>Space</strong>, wooden, round
                 </a>
                 <a
                   onClick={() => {
                     setImages(petr);
+                    setActive1(false);
+                    setActive2(false);
+                    setActive3(true);
+                    setActive4(false);
+                    setActive5(false);
                   }}
                   href="#"
-                  className="border-b-[2px] border-green p-[10px]"
+                  className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                    active3 ? "bg-lightGray" : ""
+                  }`}
                 >
                   <strong>Petrykivka folk art</strong>, wooden
                 </a>
                 <a
                   onClick={() => {
                     setImages(images1);
+                    setActive1(false);
+                    setActive2(false);
+                    setActive3(false);
+                    setActive4(true);
+                    setActive5(false);
                   }}
                   href="#"
-                  className="border-b-[2px] border-green p-[10px]"
+                  className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                    active4 ? "bg-lightGray" : ""
+                  }`}
                 >
                   <strong>Cats</strong>, wooden, round
                 </a>
                 <a
                   onClick={() => {
-                    setImages(images1);
+                    setImages(canvas);
+                    setActive1(false);
+                    setActive2(false);
+                    setActive3(false);
+                    setActive4(false);
+                    setActive5(true);
                   }}
                   href="#"
-                  className="p-[10px]"
+                  className={`p-[10px] hover:bg-lightGray active:bg-lightGray ${
+                    active5 ? "bg-lightGray" : ""
+                  }`}
                 >
                   <strong>Canvases</strong>
                 </a>

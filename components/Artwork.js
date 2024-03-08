@@ -31,7 +31,7 @@ export default function Artwork({ image }) {
             alt={image.alt}
             width={image.width}
             height={image.height}
-            className="mx-auto"
+            className={`mx-auto ${image.b ? image.b : ""}`}
           />
 
           <h2 className="text-[22px] font-anek font-[600] max-w-[170px] text-center leading-[24px] mt-[5px]">
