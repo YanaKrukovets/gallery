@@ -75,6 +75,7 @@ header {
       -moz-transition: 0.25s ease-in-out;
       -o-transition: 0.25s ease-in-out;
       transition: 0.25s ease-in-out;
+      margin-top: 10px;
 
       &:nth-child(1) {
         top: -1px;
@@ -249,7 +250,7 @@ header {
     width: 100%;
     position: fixed;
     right: 0;
-    top: 45px;
+    top: 62px;
     z-index: 999;
     background: $color-white;
     overflow: hidden;

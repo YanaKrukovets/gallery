@@ -25,14 +25,14 @@ export default function Header() {
         img: "/images/icons/artworks-icon.png",
         alt: "book icon",
         label:
-          "<span class='whitespace-nowrap lg:whitespace-normal font-inka'>Artworks</span>",
+          "<span class='whitespace-nowrap lg:whitespace-normal font-inka md:font-[500]'>Artworks</span>",
         href: "/artworks",
       },
       item2: {
         img: "/images/icons/artist-icon.png",
         alt: "author icon",
         label:
-          "<span class='whitespace-nowrap lg:whitespace-normal font-inka'>About the artist</span>",
+          "<span class='whitespace-nowrap lg:whitespace-normal font-inka md:font-[500]'>About the artist</span>",
         href: "/about",
       },
     };
@@ -92,7 +92,7 @@ export default function Header() {
                 <Link href="/" passHref>
                   <img
                     src={t.header.nav_logo_src}
-                    className="w-full max-w-[250px] mx-auto mt-[10px]"
+                    className="w-full max-w-[250px] mt-[10px]"
                     alt={t.header.nav_logo_alt}
                   />
                 </Link>
@@ -138,7 +138,11 @@ export default function Header() {
 
             {/* Mobile Nav */}
 
-            <div className={`mobile-nav ${mobileNavExpanded ? "block" : ""}`}>
+            <div
+              className={`mobile-nav ${
+                mobileNavExpanded ? "block h-full" : ""
+              }`}
+            >
               {!!menu &&
                 menu.map((item, index) => {
                   return (
@@ -173,16 +177,16 @@ export default function Header() {
                     </>
                   );
                 })}
-              <NavLangToggle />
+              {/*<NavLangToggle />*/}
             </div>
 
             {/* Language Toggle */}
-            <div className="flex-end hidden">
-              <div
+            <div className="flex-end">
+              {/*  <div
                 className={`xmd:hidden px-3 xxmd:pl-0 items-center text-grey text-center`}
               >
                 <NavLangToggle />
-              </div>
+              </div>*/}
 
               <button
                 ref={dropdown}

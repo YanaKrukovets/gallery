@@ -20,7 +20,7 @@ export default function HomeBannerNew() {
 
   return (
     <>
-      <section className="py-12">
+      <section className="py-12 md:pt-12 md:pb-10">
         <div className="container">
           <Swiper
             pagination={{
@@ -34,7 +34,7 @@ export default function HomeBannerNew() {
               enabled: true,
               onlyInViewport: true,
             }}
-            className="h-96 w-full"
+            className="h-96 w-full md:max-h-[210px]"
           >
             <SwiperSlide>
               <div className="flex h-full w-full items-center justify-center">
