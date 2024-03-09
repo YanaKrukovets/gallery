@@ -33,7 +33,7 @@ export default function Header() {
         alt: "author icon",
         label:
           "<span class='whitespace-nowrap lg:whitespace-normal font-inka'>About the artist</span>",
-        href: "/about-artist",
+        href: "/about",
       },
     };
   } else {
