@@ -24,7 +24,7 @@ export default function Artwork({ image }) {
 
   return (
     <>
-      <div className="py-[10px] px-[25px] bg-white shadow-lg ml-[30px] mb-[20px] transition-transform duration-300 transform hover:scale-110 max-h-[300px]">
+      <div className="py-[10px] px-[25px] bg-white shadow-lg ml-[30px] md:mx-auto mb-[20px] transition-transform duration-300 transform hover:scale-110 max-h-[300px]">
         <a href="#" onClick={openModal}>
           <Image
             src={image.src}

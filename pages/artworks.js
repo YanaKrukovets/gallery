@@ -369,6 +369,8 @@ export default function Artworks() {
   const [active4, setActive4] = useState(false);
   const [active5, setActive5] = useState(false);
 
+  const [mobileExpanded, setMobileExpanded] = useState(false);
+
   return (
     <>
       <Image
@@ -380,12 +382,23 @@ export default function Artworks() {
       />
       <div className="max-w-inner">
         <div className="max-w-wrapper px-5 mx-auto">
-          <div className="flex w-full bg-lightGray justify-between">
-            <div className="py-[10px] border-l-[2px] border-green bg-white">
-              <h2 className="text-[22px] font-anek border-b-[4px] border-green pb-[10px] mt-[30px] pl-[15px]">
+          <div className="flex w-full bg-lightGray justify-between md:flex-col">
+            <div className="py-[10px] border-l-[2px] border-green bg-white md:relative md:border-0">
+              <h2 className="text-[22px] font-anek border-b-[4px] border-green pb-[10px] mt-[30px] pl-[15px] md:hidden">
                 <strong className="font-[600]">Filter</strong>
               </h2>
-              <div className="flex flex-col">
+              <a
+                onClick={() => setMobileExpanded(!mobileExpanded)}
+                className="text-[22px] font-anek border-green py-[10px] mt-[20px] pl-[15px] md:block md:border-[4px] hidden"
+              >
+                <strong className="font-[600]">Filter</strong>
+              </a>
+
+              <div
+                className={`flex flex-col md:z-[10] md:bg-white md:w-full md:border-l-[2px] md:border-r-[2px] md:border-green md:h-[95vh] ${
+                  mobileExpanded ? "md:absolute" : "md:hidden"
+                }`}
+              >
                 <a
                   onClick={() => {
                     setImages(allImages);
@@ -394,6 +407,7 @@ export default function Artworks() {
                     setActive3(false);
                     setActive4(false);
                     setActive5(false);
+                    setMobileExpanded(!mobileExpanded);
                   }}
                   href="#"
                   className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -412,6 +426,7 @@ export default function Artworks() {
                     setActive3(false);
                     setActive4(false);
                     setActive5(false);
+                    setMobileExpanded(!mobileExpanded);
                   }}
                   href="#"
                   className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -428,6 +443,7 @@ export default function Artworks() {
                     setActive3(true);
                     setActive4(false);
                     setActive5(false);
+                    setMobileExpanded(!mobileExpanded);
                   }}
                   href="#"
                   className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -444,6 +460,7 @@ export default function Artworks() {
                     setActive3(false);
                     setActive4(true);
                     setActive5(false);
+                    setMobileExpanded(!mobileExpanded);
                   }}
                   href="#"
                   className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -460,6 +477,7 @@ export default function Artworks() {
                     setActive3(false);
                     setActive4(false);
                     setActive5(true);
+                    setMobileExpanded(!mobileExpanded);
                   }}
                   href="#"
                   className={`p-[10px] hover:bg-lightGray active:bg-lightGray ${
@@ -471,13 +489,9 @@ export default function Artworks() {
               </div>
             </div>
 
-            <div className="flex my-[30px] w-[75%] pr-[20px] flex-wrap h-[600px] overflow-scroll">
+            <div className="flex my-[30px] w-[75%] pr-[20px] md:pr-0 md:w-full flex-wrap h-[600px] overflow-scroll md:mx-auto">
               {images.map((image, index) => {
-                return (
-                  <>
-                    <Artwork image={image} />
-                  </>
-                );
+                return <Artwork image={image} key={index} />;
               })}
             </div>
           </div>

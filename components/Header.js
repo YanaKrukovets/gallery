@@ -109,7 +109,7 @@ export default function Header() {
               {!!menu &&
                 menu.map((item, index) => {
                   return (
-                    <>
+                    <div key={index}>
                       <Link
                         href={item.href}
                         key={item.label}
@@ -131,7 +131,7 @@ export default function Header() {
                           dangerouslySetInnerHTML={{ __html: item.label }}
                         ></span>
                       </Link>
-                    </>
+                    </div>
                   );
                 })}
             </div>
@@ -146,7 +146,7 @@ export default function Header() {
               {!!menu &&
                 menu.map((item, index) => {
                   return (
-                    <>
+                    <div key={index}>
                       {item.submenu ? (
                         <MobileSubmenu
                           isSubmenu={isSubmenu}
@@ -156,7 +156,6 @@ export default function Header() {
                       ) : (
                         <Link
                           href={item.href}
-                          key={index}
                           className="mobile-nav-item"
                           onClick={() =>
                             setMobileNavExpanded(!mobileNavExpanded)
@@ -174,7 +173,7 @@ export default function Header() {
                           ></span>
                         </Link>
                       )}
-                    </>
+                    </div>
                   );
                 })}
               {/*<NavLangToggle />*/}
