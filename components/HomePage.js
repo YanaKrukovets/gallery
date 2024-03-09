@@ -91,7 +91,7 @@ export default function HomePage() {
     <div className="bg-lightGray pb-[10px]">
       <HomeBannerNew />
       <div className="max-w-wrapper mx-auto px-5">
-        <h1 className="text-[24px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
+        <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
           Most recent
         </h1>
         <div className="flex my-[30px] w-full pr-[20px] flex-wrap gap-[20px] justify-center">

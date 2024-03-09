@@ -49,7 +49,7 @@ export default function Artwork({ image }) {
 
       {isOpen && (
         <div className="modal-overlay">
-          <div className="modal">
+          <div className="modal sm:max-w-[90vw]">
             <span className="close" onClick={closeModal}>
               &times;
             </span>
@@ -60,7 +60,7 @@ export default function Artwork({ image }) {
                 alt={image.alt}
                 width={1000}
                 height={550}
-                className="mx-auto max-w-[400px]"
+                className="mx-auto max-w-[400px] sm:max-w-[68vw]"
               />
               <h2 className="text-[22px] font-anek font-[600] text-center leading-[24px] mt-[5px]">
                 {image.name}

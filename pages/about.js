@@ -21,7 +21,7 @@ export default function About() {
       />
       <div className="bg-lightGray pb-[10px]">
         <div className="max-w-wrapper mx-auto px-5 py-[50px]">
-          <h1 className="text-[24px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
+          <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
             About the artist
           </h1>
           <div className="flex mt-[40px]">
