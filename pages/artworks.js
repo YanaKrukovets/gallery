@@ -381,7 +381,7 @@ export default function Artworks() {
       <div className="max-w-inner">
         <div className="max-w-wrapper px-5 mx-auto">
           <div className="flex w-full bg-lightGray justify-between">
-            <div className="py-[10px] border-l-[2px] border-r-[2px] border-green bg-white">
+            <div className="py-[10px] border-l-[2px] border-green bg-white">
               <h2 className="text-[22px] font-anek border-b-[4px] border-green pb-[10px] mt-[30px] pl-[15px]">
                 <strong className="font-[600]">Filter</strong>
               </h2>

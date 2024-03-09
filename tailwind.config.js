@@ -20,7 +20,7 @@ module.exports = {
       lg: { max: "1200px" },
       xxmd: { max: "1130px" },
       mdlg: { max: "1024px" },
-      xmd: { max: "899px" },
+      xmd: { max: "999px" },
       md: { max: "768px" },
       sm: { max: "576px" },
       xsm: { max: "395px" },
