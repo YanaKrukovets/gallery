@@ -23,6 +23,7 @@ export default function Contact() {
         alt="An orange abstract art work"
         width={2000}
         height={240}
+        priority={true}
         className="min-h-[150px]"
       />
       <div className="bg-lightGray pb-[10px]">
@@ -53,6 +54,7 @@ export default function Contact() {
                       alt="instagram icon"
                       width={20}
                       height={40}
+                      priority={true}
                     />
                   </a>
                   <a
@@ -71,6 +73,7 @@ export default function Contact() {
                 width={400}
                 height={450}
                 className="md:hidden"
+                priority={true}
               />
             </div>
           </div>

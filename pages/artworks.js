@@ -378,6 +378,7 @@ export default function Artworks() {
         alt="An orange abstract art work"
         width={2000}
         height={240}
+        priority={true}
         className="min-h-[150px]"
       />
       <div className="max-w-inner">

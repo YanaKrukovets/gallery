@@ -17,6 +17,7 @@ export default function About() {
         alt="An orange abstract art work"
         width={2000}
         height={240}
+        priority={true}
         className="min-h-[150px]"
       />
       <div className="bg-lightGray pb-[10px]">
@@ -29,6 +30,7 @@ export default function About() {
               src="/images/components/about/author.webp"
               width={300}
               height={400}
+              priority={true}
               alt="Photo of the artist. Yana Krukovets"
               className="md:mx-auto md:max-w-[250px] sm:max-w-[200px]"
             />

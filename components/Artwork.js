@@ -31,6 +31,7 @@ export default function Artwork({ image }) {
             alt={image.alt}
             width={image.width}
             height={image.height}
+            priority={true}
             className={`mx-auto ${image.b ? image.b : ""}`}
           />
 
@@ -60,6 +61,7 @@ export default function Artwork({ image }) {
                 alt={image.alt}
                 width={1000}
                 height={550}
+                priority={true}
                 className="mx-auto max-w-[400px] sm:max-w-[68vw]"
               />
               <h2 className="text-[22px] font-anek font-[600] text-center leading-[24px] mt-[5px]">

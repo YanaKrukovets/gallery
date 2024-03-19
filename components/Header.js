@@ -102,6 +102,7 @@ export default function Header() {
                     src={t.header.nav_logo_src}
                     className="w-full max-w-[250px] mt-[10px]"
                     alt={t.header.nav_logo_alt}
+                    priority={true}
                     width={250}
                     height={250}
                   />
@@ -133,6 +134,7 @@ export default function Header() {
                           alt={item.alt}
                           width={250}
                           height={250}
+                          priority={true}
                         />
                         <span
                           className={`desktop-nav-text ${

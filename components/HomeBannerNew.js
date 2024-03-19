@@ -40,9 +40,10 @@ export default function HomeBannerNew() {
               <div className="flex h-full w-full items-center justify-center">
                 <Image
                   src="/images/slider/slide1.webp"
-                  alt="Big moon on the night sky. Three deers on the white snow"
+                  alt="Mini round artworks. Space"
                   width={2000}
                   height={550}
+                  priority={true}
                 />
               </div>
             </SwiperSlide>
@@ -50,9 +51,10 @@ export default function HomeBannerNew() {
               <div className="flex h-full w-full items-center justify-center">
                 <Image
                   src="/images/slider/slide2.webp"
-                  alt="Orange modern abstract artwork"
+                  alt="Mini round artworks. Ukraininan folk art"
                   width={2000}
                   height={550}
+                  priority={true}
                 />
               </div>
             </SwiperSlide>
@@ -60,9 +62,10 @@ export default function HomeBannerNew() {
               <div className="flex h-full w-full items-center justify-center">
                 <Image
                   src="/images/slider/slide3.webp"
-                  alt="Green modern abstract art work with the purple rectangles"
+                  alt="Canvas art works"
                   width={2000}
                   height={550}
+                  priority={true}
                 />
               </div>
             </SwiperSlide>
