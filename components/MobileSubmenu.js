@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
 const MobileSubmenu = ({ isSubmenu, setIsSubmenu, submenu }) => {

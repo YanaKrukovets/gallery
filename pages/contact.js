@@ -4,11 +4,7 @@ import Image from "next/image";
 import en from "../locales/en";
 import fr from "../locales/fr";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faSquareInstagram,
-  faInstagram,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   const router = useRouter();

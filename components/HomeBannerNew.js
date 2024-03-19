@@ -6,7 +6,7 @@ import en from "../locales/en";
 import fr from "../locales/fr";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, EffectFade, Autoplay } from "swiper/modules";
+import { Navigation, EffectFade, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";

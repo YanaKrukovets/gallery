@@ -1,8 +1,7 @@
 import React from "react";
-import Link from "next/link";
+
 import { useRouter } from "next/router";
-import Image from "next/image";
-import { useState, useEffect } from "react";
+
 import en from "../locales/en";
 import fr from "../locales/fr";
 

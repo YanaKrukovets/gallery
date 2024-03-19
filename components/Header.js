@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React, { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
-import NavLangToggle from "./NavLangToggle";
 import en from "../locales/en";
 import fr from "../locales/fr";
 import MobileSubmenu from "./MobileSubmenu";
