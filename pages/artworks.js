@@ -390,6 +390,7 @@ export default function Artworks() {
               </h2>
               <a
                 onClick={() => setMobileExpanded(!mobileExpanded)}
+                href="#"
                 className="text-[22px] font-anek border-green py-[10px] mt-[20px] pl-[15px] md:block md:border-[4px] hidden"
               >
                 <strong className="font-[600]">Filter</strong>
