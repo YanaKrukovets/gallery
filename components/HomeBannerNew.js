@@ -34,7 +34,7 @@ export default function HomeBannerNew() {
 
   return (
     <>
-      <section className="py-12 md:pt-12 md:pb-10 xsm:pb-5">
+      <section className="pb-12 pt-16 md:pt-12 md:pb-10 xsm:pb-5">
         <div className="container">
           <Swiper
             pagination={{
@@ -60,7 +60,7 @@ export default function HomeBannerNew() {
                     height={550}
                     priority={true}
                     rel="preload"
-                    className="object-cover"
+                    className="object-cover max-h-[550px] object-top"
                   />
                 )}
                 {!isMobile && (
@@ -86,7 +86,7 @@ export default function HomeBannerNew() {
                     height={550}
                     priority={true}
                     rel="preload"
-                    className="object-cover"
+                    className="object-cover max-h-[550px] object-top"
                   />
                 )}
                 {!isMobile && (
@@ -112,7 +112,7 @@ export default function HomeBannerNew() {
                     height={550}
                     priority={true}
                     rel="preload"
-                    className="object-cover"
+                    className="object-cover max-h-[550px] object-top"
                   />
                 )}
                 {!isMobile && (
