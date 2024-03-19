@@ -1,15 +1,7 @@
 import React from "react";
-import { useRouter } from "next/router";
 import Image from "next/image";
-import en from "../locales/en";
-import fr from "../locales/fr";
 
 export default function About() {
-  const router = useRouter();
-
-  const { locale, asPath } = router;
-  const t = locale === "en" ? en : fr;
-
   return (
     <>
       <Image

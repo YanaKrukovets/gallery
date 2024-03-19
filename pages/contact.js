@@ -1,19 +1,11 @@
 import React from "react";
-import { useRouter } from "next/router";
+
 import Image from "next/image";
-import en from "../locales/en";
-import fr from "../locales/fr";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { useMediaQuery } from "react-responsive";
 
 export default function Contact() {
-  const router = useRouter();
-
-  const { locale, asPath } = router;
-  const t = locale === "en" ? en : fr;
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
-
   return (
     <>
       <Image
@@ -68,17 +60,14 @@ export default function Contact() {
                   </a>
                 </div>
               </div>
-
-              {!isMobile && (
-                <Image
-                  src="/images/components/contact/art.webp"
-                  alt="round art"
-                  width={400}
-                  height={450}
-                  className="md:hidden object-cover"
-                  priority={true}
-                />
-              )}
+              <Image
+                src="/images/components/contact/art.webp"
+                alt="round art"
+                width={400}
+                height={450}
+                className="md:hidden object-cover"
+                priority={true}
+              />
             </div>
           </div>
         </div>

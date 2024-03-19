@@ -1,9 +1,5 @@
 import React from "react";
-import { useRouter } from "next/router";
 import Image from "next/image";
-
-import en from "../locales/en";
-import fr from "../locales/fr";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectFade, Autoplay } from "swiper/modules";
@@ -14,10 +10,6 @@ import "swiper/css/pagination";
 import { useMediaQuery } from "react-responsive";
 
 export default function HomeBannerNew() {
-  const router = useRouter();
-
-  const { locale } = router;
-  const t = locale === "en" ? en : fr;
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
 
   return (
@@ -39,7 +31,7 @@ export default function HomeBannerNew() {
             className="h-96 w-full md:max-h-[210px] xsm:max-h-[160px]"
           >
             <SwiperSlide>
-              <div className="flex h-full w-full items-center justify-center">
+              <div className="flex h-full w-full items-start justify-center">
                 {!isMobile && (
                   <Image
                     src="/images/slider/slide1.webp"
@@ -63,7 +55,7 @@ export default function HomeBannerNew() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex h-full w-full items-center justify-center">
+              <div className="flex h-full w-full items-start justify-center">
                 {!isMobile && (
                   <Image
                     src="/images/slider/slide2.webp"
@@ -87,7 +79,7 @@ export default function HomeBannerNew() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex h-full w-full items-center justify-center">
+              <div className="flex h-full w-full items-start justify-center">
                 {!isMobile && (
                   <Image
                     src="/images/slider/slide3.webp"
