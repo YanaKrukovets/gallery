@@ -44,7 +44,15 @@ export default function HomeBannerNew() {
                   width={2000}
                   height={550}
                   priority={true}
-                  className="object-cover"
+                  className="object-cover md:hidden"
+                />
+                <Image
+                  src="/images/slider/slide1-mbl.webp"
+                  alt="Mini round artworks. Space"
+                  width={800}
+                  height={350}
+                  priority={true}
+                  className="object-cover hidden md:block"
                 />
               </div>
             </SwiperSlide>
