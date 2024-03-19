@@ -1,13 +1,11 @@
 /* eslint-disable @next/next/next-script-for-ga */
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
+
 import Header from "./Header";
 import Footer from "./Footer";
 
 export default function Layout({ children }) {
-  const router = useRouter();
-  const { locale } = router;
   const [url, setUrl] = useState("");
 
   useEffect(() => {
