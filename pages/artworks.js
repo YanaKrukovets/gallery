@@ -18,7 +18,7 @@ export default function Artworks() {
       src: "/images/components/artworks/cats1.webp",
       alt: "Lovely Valentines purple and white cats",
       width: 150,
-      height: 70,
+      height: 150,
       name: "Purple and white cats in love",
       size: "round, diameter - 4 inch",
       description:
@@ -91,7 +91,7 @@ export default function Artworks() {
       src: "/images/components/artworks/petr7.webp",
       alt: "Petrykivka folk art. Red flower with the green leaves on the black background",
       width: 150,
-      height: 70,
+      height: 150,
       name: "Red flower",
       size: "round, diameter - 4 inch",
       description:

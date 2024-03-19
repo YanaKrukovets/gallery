@@ -17,7 +17,7 @@ export default function HomePage() {
       src: "/images/components/artworks/cats1.webp",
       alt: "Lovely Valentines purple and white cats",
       width: 150,
-      height: 70,
+      height: 145,
       name: "Purple and white cats in love",
       size: "round, diameter - 4 inch",
       description:
@@ -27,7 +27,7 @@ export default function HomePage() {
       src: "/images/components/artworks/space6.webp",
       alt: "Black tree on the black space background with orange lights",
       width: 150,
-      height: 70,
+      height: 145,
       name: "Night view",
       size: "round, diameter - 4 inch",
       description:
@@ -37,7 +37,7 @@ export default function HomePage() {
       src: "/images/components/artworks/space8.webp",
       alt: "Gray moon",
       width: 150,
-      height: 70,
+      height: 145,
       name: "Gray moon",
       size: "round, diameter - 4 inch",
       description:
@@ -47,7 +47,7 @@ export default function HomePage() {
       src: "/images/components/artworks/canvas1.webp",
       alt: "Three deers on the snow. Night view with big moon",
       width: 150,
-      height: 70,
+      height: 145,
       name: "Three deers",
       size: "16 inch X 12 inch",
       b: "my-[15px]",
@@ -58,7 +58,7 @@ export default function HomePage() {
       src: "/images/components/artworks/canvas2.webp",
       alt: "Purple dots and purple rectangles on the green-yellow background",
       width: 150,
-      height: 70,
+      height: 145,
       name: "Purple road",
       size: "16 inch X 12 inch",
       b: "my-[15px]",
@@ -69,7 +69,7 @@ export default function HomePage() {
       src: "/images/components/artworks/petr7.webp",
       alt: "Petrykivka folk art. Red flower with the green leaves on the black background",
       width: 150,
-      height: 70,
+      height: 145,
       name: "Red flower",
       size: "round, diameter - 4 inch",
       description:
@@ -79,7 +79,7 @@ export default function HomePage() {
       src: "/images/components/artworks/petr1.webp",
       alt: "Petrykivka folk art. Red flowers with the green leaves on the black background",
       width: 150,
-      height: 70,
+      height: 145,
       name: "Red flowers",
       size: "round, diameter - 4 inch",
       description:
