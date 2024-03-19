@@ -1,18 +1,9 @@
 import React from "react";
-import { useState } from "react";
-import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Artwork from "../components/Artwork";
 
-import en from "../locales/en";
-import fr from "../locales/fr";
-
 export default function Artworks() {
-  const router = useRouter();
-
-  const { locale, asPath } = router;
-  const t = locale === "en" ? en : fr;
-
   const images1 = [
     {
       src: "/images/components/artworks/cats1.webp",
@@ -371,16 +362,50 @@ export default function Artworks() {
 
   const [mobileExpanded, setMobileExpanded] = useState(false);
 
+  const useWindowWide = (size) => {
+    const [width, setWidth] = useState(0);
+
+    useEffect(() => {
+      function handleResize() {
+        setWidth(window.innerWidth);
+      }
+
+      window.addEventListener("resize", handleResize);
+
+      handleResize();
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, [setWidth]);
+
+    return width > size;
+  };
+
+  const isMobile = useWindowWide(760);
+
   return (
     <>
-      <Image
-        src="/images/banner.png"
-        alt="An orange abstract art work"
-        width={2000}
-        height={240}
-        priority={true}
-        className="min-h-[150px] object-cover md:min-h-[100px]"
-      />
+      {isMobile && (
+        <Image
+          src="/images/banner.webp"
+          alt="An orange abstract art work"
+          width={2000}
+          height={240}
+          priority={true}
+          className="min-h-[150px] object-cover"
+        />
+      )}
+      {!isMobile && (
+        <Image
+          src="/images/banner-mbl.webp"
+          alt="An orange abstract art work"
+          width={800}
+          height={150}
+          priority={true}
+          className="min-h-[80px] object-cover"
+        />
+      )}
       <div className="max-w-inner">
         <div className="max-w-wrapper px-5 mx-auto">
           <div className="flex w-full bg-lightGray justify-between md:flex-col">

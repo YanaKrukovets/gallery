@@ -55,7 +55,7 @@ export default function HomeBannerNew() {
                 {isMobile && (
                   <Image
                     src="/images/slider/slide1.webp"
-                    alt="Mini round artworks. Space"
+                    alt="Wall art. Acrylic dolphin. Sunset"
                     width={2000}
                     height={550}
                     priority={true}
@@ -66,7 +66,7 @@ export default function HomeBannerNew() {
                 {!isMobile && (
                   <Image
                     src="/images/slider/slide1-mbl.webp"
-                    alt="Mini round artworks. Space"
+                    alt="Wall art. Acrylic dolphin. Sunset"
                     width={750}
                     height={350}
                     priority={true}
@@ -81,7 +81,7 @@ export default function HomeBannerNew() {
                 {isMobile && (
                   <Image
                     src="/images/slider/slide2.webp"
-                    alt="Mini round artworks. Ukraininan folk art"
+                    alt="Wall art. Acrylic dolphin. Sunset"
                     width={2000}
                     height={550}
                     priority={true}
@@ -92,7 +92,7 @@ export default function HomeBannerNew() {
                 {!isMobile && (
                   <Image
                     src="/images/slider/slide2-mbl.webp"
-                    alt="Mini round artworks. Ukraininan folk art"
+                    alt="Wall art. Acrylic dolphin. Sunset"
                     width={750}
                     height={350}
                     priority={true}
@@ -107,7 +107,7 @@ export default function HomeBannerNew() {
                 {isMobile && (
                   <Image
                     src="/images/slider/slide3.webp"
-                    alt="Canvas art works"
+                    alt="Wall art. Acrylic Red flowers on canvas. Acrylic Night sky on canvas"
                     width={2000}
                     height={550}
                     priority={true}

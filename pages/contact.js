@@ -32,7 +32,7 @@ export default function Contact() {
   return (
     <>
       <Image
-        src="/images/banner.png"
+        src="/images/banner.webp"
         alt="An orange abstract art work"
         width={2000}
         height={240}
