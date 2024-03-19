@@ -92,7 +92,7 @@ export default function HomePage() {
       <HomeBannerNew />
       <div className="max-w-wrapper mx-auto px-5">
         <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
-          Most recent
+          Most recent artworks
         </h1>
         <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
           {images.map((image, index) => {

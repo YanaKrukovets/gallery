@@ -194,7 +194,7 @@ export default function Header() {
                 <NavLangToggle />
               </div>*/}
 
-              <button
+              <a
                 ref={dropdown}
                 id="nav-button"
                 className={`${mobileNavExpanded ? "open" : ""} nav-button`}
@@ -206,7 +206,7 @@ export default function Header() {
                 <span></span>
                 <span></span>
                 <span></span>
-              </button>
+              </a>
             </div>
           </div>
         </nav>

@@ -27,12 +27,12 @@ export default function Layout({ children }) {
         <title>Online Art Gallery by Yana Krukovets</title>
         <meta
           name="description"
-          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor abstract space nature artworks."
+          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor artworks. Abstract space nature wall art, mini art"
         />
 
         <meta
           property="og:url"
-          content="https://yanakrukovets-artgallery.com/"
+          content="https://yanakrukovets-artgallery.ca/"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -46,13 +46,10 @@ export default function Layout({ children }) {
         <meta property="og:image" content="../images/og-image.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:domain"
-          content="yanakrukovets-artgallery.com"
-        />
+        <meta property="twitter:domain" content="yanakrukovets-artgallery.ca" />
         <meta
           property="twitter:url"
-          content="https://yanakrukovets-artgallery.com/"
+          content="https://yanakrukovets-artgallery.ca/"
         />
         <meta
           name="twitter:title"
@@ -64,7 +61,7 @@ export default function Layout({ children }) {
         />
         <meta
           name="twitter:image"
-          content="https://yanakrukovets-artgallery.com/images/og-image.webp"
+          content="https://yanakrukovets-artgallery.ca/images/og-image.webp"
         />
       </Head>
 
