@@ -27,29 +27,44 @@ export default function Layout({ children }) {
         <title>Online Art Gallery by Yana Krukovets</title>
         <meta
           name="description"
-          content="Children's story books about the guinea pigs."
+          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor abstract space nature artworks."
         />
 
-        <meta property="og:url" content="https://lunatheguineapig.com/" />
+        <meta
+          property="og:url"
+          content="https://yanakrukovets-artgallery.com/"
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Luna the guinea pig. Kids book" />
+        <meta
+          property="og:title"
+          content="Online Art Gallery by Yana Krukovets"
+        />
         <meta
           property="og:description"
-          content="Children's story books about the guinea pigs."
+          content="Acrylic, watercolor abstract space nature artworks."
         />
         <meta property="og:image" content="../images/og-image.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="lunatheguineapig.com" />
-        <meta property="twitter:url" content="https://lunatheguineapig.com/" />
-        <meta name="twitter:title" content="Luna the guinea pig. Kids book" />
+        <meta
+          property="twitter:domain"
+          content="yanakrukovets-artgallery.com"
+        />
+        <meta
+          property="twitter:url"
+          content="https://yanakrukovets-artgallery.com/"
+        />
+        <meta
+          name="twitter:title"
+          content="Online Art Gallery by Yana Krukovets"
+        />
         <meta
           name="twitter:description"
-          content="Children's story books about the guinea pigs."
+          content="Acrylic, watercolor abstract space nature artworks."
         />
         <meta
           name="twitter:image"
-          content="https://undefined/img/og-image.png"
+          content="https://yanakrukovets-artgallery.com/images/og-image.webp"
         />
       </Head>
 

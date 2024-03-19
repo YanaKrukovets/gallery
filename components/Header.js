@@ -35,6 +35,13 @@ export default function Header() {
           "<span class='whitespace-nowrap lg:whitespace-normal font-inka md:font-[500]'>About the artist</span>",
         href: "/about",
       },
+      item3: {
+        img: "/images/icons/contact-icon.png",
+        alt: "contact icon",
+        label:
+          "<span class='whitespace-nowrap lg:whitespace-normal font-inka md:font-[500]'>Contact</span>",
+        href: "/contact",
+      },
     };
   } else {
     nav = {
