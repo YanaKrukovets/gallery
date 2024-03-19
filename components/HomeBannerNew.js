@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectFade, Autoplay } from "swiper/modules";
@@ -7,10 +8,29 @@ import { Navigation, EffectFade, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { useMediaQuery } from "react-responsive";
 
 export default function HomeBannerNew() {
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
+  const useWindowWide = (size) => {
+    const [width, setWidth] = useState(0);
+
+    useEffect(() => {
+      function handleResize() {
+        setWidth(window.innerWidth);
+      }
+
+      window.addEventListener("resize", handleResize);
+
+      handleResize();
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, [setWidth]);
+
+    return width > size;
+  };
+
+  const isMobile = useWindowWide(760);
 
   return (
     <>
@@ -32,7 +52,7 @@ export default function HomeBannerNew() {
           >
             <SwiperSlide>
               <div className="flex h-full w-full items-start justify-center">
-                {!isMobile && (
+                {isMobile && (
                   <Image
                     src="/images/slider/slide1.webp"
                     alt="Mini round artworks. Space"
@@ -42,7 +62,7 @@ export default function HomeBannerNew() {
                     className="object-cover"
                   />
                 )}
-                {isMobile && (
+                {!isMobile && (
                   <Image
                     src="/images/slider/slide1-mbl.webp"
                     alt="Mini round artworks. Space"
@@ -56,7 +76,7 @@ export default function HomeBannerNew() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex h-full w-full items-start justify-center">
-                {!isMobile && (
+                {isMobile && (
                   <Image
                     src="/images/slider/slide2.webp"
                     alt="Mini round artworks. Ukraininan folk art"
@@ -66,7 +86,7 @@ export default function HomeBannerNew() {
                     className="object-cover"
                   />
                 )}
-                {isMobile && (
+                {!isMobile && (
                   <Image
                     src="/images/slider/slide2-mbl.webp"
                     alt="Mini round artworks. Ukraininan folk art"
@@ -80,7 +100,7 @@ export default function HomeBannerNew() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex h-full w-full items-start justify-center">
-                {!isMobile && (
+                {isMobile && (
                   <Image
                     src="/images/slider/slide3.webp"
                     alt="Canvas art works"
@@ -90,7 +110,7 @@ export default function HomeBannerNew() {
                     className="object-cover"
                   />
                 )}
-                {isMobile && (
+                {!isMobile && (
                   <Image
                     src="/images/slider/slide3-mbl.webp"
                     alt="Canvas art works"

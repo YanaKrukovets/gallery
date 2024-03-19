@@ -14,7 +14,7 @@ export default function Contact() {
         width={2000}
         height={240}
         priority={true}
-        className="min-h-[150px] object-cover md:min-h-[70px]"
+        className="min-h-[150px] object-cover md:min-h-[100px]"
       />
       <div className="bg-lightGray pb-[10px]">
         <div className="max-w-wrapper mx-auto px-5 py-[50px] sm:py-[40px]">

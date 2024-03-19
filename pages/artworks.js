@@ -379,7 +379,7 @@ export default function Artworks() {
         width={2000}
         height={240}
         priority={true}
-        className="min-h-[150px] object-cover md:min-h-[70px]"
+        className="min-h-[150px] object-cover md:min-h-[100px]"
       />
       <div className="max-w-inner">
         <div className="max-w-wrapper px-5 mx-auto">
