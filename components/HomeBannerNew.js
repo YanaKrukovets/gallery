@@ -54,7 +54,7 @@ export default function HomeBannerNew() {
                   <Image
                     src="/images/slider/slide1-mbl.webp"
                     alt="Mini round artworks. Space"
-                    width={800}
+                    width={750}
                     height={350}
                     priority={true}
                     className="object-cover"
@@ -78,8 +78,8 @@ export default function HomeBannerNew() {
                   <Image
                     src="/images/slider/slide2-mbl.webp"
                     alt="Mini round artworks. Ukraininan folk art"
-                    width={2000}
-                    height={550}
+                    width={750}
+                    height={350}
                     priority={true}
                     className="object-cover"
                   />
@@ -102,8 +102,8 @@ export default function HomeBannerNew() {
                   <Image
                     src="/images/slider/slide3-mbl.webp"
                     alt="Canvas art works"
-                    width={2000}
-                    height={550}
+                    width={750}
+                    height={350}
                     priority={true}
                     className="object-cover"
                   />
