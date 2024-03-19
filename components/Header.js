@@ -23,7 +23,7 @@ export default function Header() {
     nav = {
       item1: {
         img: "/images/icons/artworks-icon.png",
-        alt: "book icon",
+        alt: "artwork icon",
         label:
           "<span class='whitespace-nowrap lg:whitespace-normal font-inka md:font-[500]'>Artworks</span>",
         href: "/artworks",

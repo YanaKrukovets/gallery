@@ -15,7 +15,7 @@ import "swiper/css/pagination";
 export default function HomeBannerNew() {
   const router = useRouter();
 
-  const { locale, asPath } = router;
+  const { locale } = router;
   const t = locale === "en" ? en : fr;
 
   return (
