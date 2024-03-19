@@ -1,11 +1,34 @@
 import React from "react";
 
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
+  const useWindowWide = (size) => {
+    const [width, setWidth] = useState(0);
+
+    useEffect(() => {
+      function handleResize() {
+        setWidth(window.innerWidth);
+      }
+
+      window.addEventListener("resize", handleResize);
+
+      handleResize();
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }, [setWidth]);
+
+    return width > size;
+  };
+
+  const isMobile = useWindowWide(760);
+
   return (
     <>
       <Image
@@ -60,14 +83,16 @@ export default function Contact() {
                   </a>
                 </div>
               </div>
-              <Image
-                src="/images/components/contact/art.webp"
-                alt="round art"
-                width={400}
-                height={450}
-                className="md:hidden object-cover"
-                priority={true}
-              />
+              {isMobile && (
+                <Image
+                  src="/images/components/contact/art.webp"
+                  alt="round art"
+                  width={400}
+                  height={450}
+                  className="md:hidden object-cover"
+                  priority={true}
+                />
+              )}
             </div>
           </div>
         </div>
