@@ -48,7 +48,7 @@ export default function HomeBannerNew() {
               enabled: true,
               onlyInViewport: true,
             }}
-            className="h-96 w-full md:max-h-[210px] xsm:max-h-[160px]"
+            className="h-auto w-full md:max-h-[210px] xsm:max-h-[160px]"
           >
             <SwiperSlide>
               <div className="flex h-full w-full items-start justify-center">
