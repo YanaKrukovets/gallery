@@ -11,12 +11,14 @@ import { Navigation, EffectFade, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { useMediaQuery } from "react-responsive";
 
 export default function HomeBannerNew() {
   const router = useRouter();
 
   const { locale } = router;
   const t = locale === "en" ? en : fr;
+  const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
 
   return (
     <>
@@ -38,22 +40,26 @@ export default function HomeBannerNew() {
           >
             <SwiperSlide>
               <div className="flex h-full w-full items-center justify-center">
-                <Image
-                  src="/images/slider/slide1.webp"
-                  alt="Mini round artworks. Space"
-                  width={2000}
-                  height={550}
-                  priority={true}
-                  className="object-cover md:hidden"
-                />
-                <Image
-                  src="/images/slider/slide1-mbl.webp"
-                  alt="Mini round artworks. Space"
-                  width={800}
-                  height={350}
-                  priority={true}
-                  className="object-cover hidden md:block"
-                />
+                {!isMobile && (
+                  <Image
+                    src="/images/slider/slide1.webp"
+                    alt="Mini round artworks. Space"
+                    width={2000}
+                    height={550}
+                    priority={true}
+                    className="object-cover"
+                  />
+                )}
+                {isMobile && (
+                  <Image
+                    src="/images/slider/slide1-mbl.webp"
+                    alt="Mini round artworks. Space"
+                    width={800}
+                    height={350}
+                    priority={true}
+                    className="object-cover"
+                  />
+                )}
               </div>
             </SwiperSlide>
             <SwiperSlide>
