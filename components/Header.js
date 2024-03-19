@@ -100,7 +100,7 @@ export default function Header() {
                 <Link href="/" passHref>
                   <Image
                     src={t.header.nav_logo_src}
-                    className="w-full max-w-[250px] mt-[10px]"
+                    className="w-full max-w-[250px] mt-[10px] object-cover"
                     alt={t.header.nav_logo_alt}
                     priority={true}
                     width={250}
@@ -129,7 +129,7 @@ export default function Header() {
                         } desktop-nav-item transition-all hover:underline`}
                       >
                         <Image
-                          className={`desktop-nav-icon`}
+                          className={`desktop-nav-icon object-cover`}
                           src={item.img}
                           alt={item.alt}
                           width={250}

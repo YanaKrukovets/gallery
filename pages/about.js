@@ -18,7 +18,7 @@ export default function About() {
         width={2000}
         height={240}
         priority={true}
-        className="min-h-[150px]"
+        className="min-h-[150px] object-cover"
       />
       <div className="bg-lightGray pb-[10px]">
         <div className="max-w-wrapper mx-auto px-5 py-[50px] sm:py-[40px]">
@@ -32,7 +32,7 @@ export default function About() {
               height={400}
               priority={true}
               alt="Photo of the artist. Yana Krukovets"
-              className="md:mx-auto md:max-w-[250px] sm:max-w-[200px]"
+              className="md:mx-auto md:max-w-[250px] sm:max-w-[200px] object-cover"
             />
             <div className="text-[20px] leading-[22px] ml-[30px] flex flex-col justify-center w-[65%] xmd:w-[55%] md:ml-0 md:w-[100%] md:mt-[30px]">
               <p className="mb-[15px]">

@@ -44,6 +44,7 @@ export default function HomeBannerNew() {
                   width={2000}
                   height={550}
                   priority={true}
+                  className="object-cover"
                 />
               </div>
             </SwiperSlide>
@@ -55,6 +56,7 @@ export default function HomeBannerNew() {
                   width={2000}
                   height={550}
                   priority={true}
+                  className="object-cover"
                 />
               </div>
             </SwiperSlide>
@@ -66,6 +68,7 @@ export default function HomeBannerNew() {
                   width={2000}
                   height={550}
                   priority={true}
+                  className="object-cover"
                 />
               </div>
             </SwiperSlide>

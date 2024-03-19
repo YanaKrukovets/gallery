@@ -32,7 +32,7 @@ export default function Artwork({ image }) {
             width={image.width}
             height={image.height}
             priority={true}
-            className={`mx-auto ${image.b ? image.b : ""}`}
+            className={`mx-auto object-cover ${image.b ? image.b : ""}`}
           />
 
           <h2 className="text-[22px] font-anek font-[600] max-w-[170px] text-center leading-[24px] mt-[5px]">
@@ -62,7 +62,7 @@ export default function Artwork({ image }) {
                 width={1000}
                 height={550}
                 priority={true}
-                className="mx-auto max-w-[400px] sm:max-w-[68vw]"
+                className="mx-auto max-w-[400px] sm:max-w-[68vw] object-cover"
               />
               <h2 className="text-[22px] font-anek font-[600] text-center leading-[24px] mt-[5px]">
                 {image.name}

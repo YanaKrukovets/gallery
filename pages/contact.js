@@ -24,7 +24,7 @@ export default function Contact() {
         width={2000}
         height={240}
         priority={true}
-        className="min-h-[150px]"
+        className="min-h-[150px] object-cover md:min-h-[70px]"
       />
       <div className="bg-lightGray pb-[10px]">
         <div className="max-w-wrapper mx-auto px-5 py-[50px] sm:py-[40px]">
@@ -34,8 +34,11 @@ export default function Contact() {
           <div className="mt-[40px] sm:mt-[30px] max-w-[700px] mx-auto">
             <div className="flex justify-between">
               <div className="my-auto">
-                <div className="mb-[20px]">
-                  <FontAwesomeIcon icon={faEnvelope} />
+                <div className="mb-[20px] flex">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="max-w-[20px] w-[20px]"
+                  />
                   <a
                     className="underline ml-[10px]"
                     href="mailto:krukovets.yana@gmail.com"
@@ -55,6 +58,7 @@ export default function Contact() {
                       width={20}
                       height={40}
                       priority={true}
+                      className="object-cover"
                     />
                   </a>
                   <a
@@ -72,7 +76,7 @@ export default function Contact() {
                 alt="round art"
                 width={400}
                 height={450}
-                className="md:hidden"
+                className="md:hidden object-cover"
                 priority={true}
               />
             </div>
