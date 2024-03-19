@@ -64,26 +64,50 @@ export default function HomeBannerNew() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex h-full w-full items-center justify-center">
-                <Image
-                  src="/images/slider/slide2.webp"
-                  alt="Mini round artworks. Ukraininan folk art"
-                  width={2000}
-                  height={550}
-                  priority={true}
-                  className="object-cover"
-                />
+                {!isMobile && (
+                  <Image
+                    src="/images/slider/slide2.webp"
+                    alt="Mini round artworks. Ukraininan folk art"
+                    width={2000}
+                    height={550}
+                    priority={true}
+                    className="object-cover"
+                  />
+                )}
+                {isMobile && (
+                  <Image
+                    src="/images/slider/slide2-mbl.webp"
+                    alt="Mini round artworks. Ukraininan folk art"
+                    width={2000}
+                    height={550}
+                    priority={true}
+                    className="object-cover"
+                  />
+                )}
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="flex h-full w-full items-center justify-center">
-                <Image
-                  src="/images/slider/slide3.webp"
-                  alt="Canvas art works"
-                  width={2000}
-                  height={550}
-                  priority={true}
-                  className="object-cover"
-                />
+                {!isMobile && (
+                  <Image
+                    src="/images/slider/slide3.webp"
+                    alt="Canvas art works"
+                    width={2000}
+                    height={550}
+                    priority={true}
+                    className="object-cover"
+                  />
+                )}
+                {isMobile && (
+                  <Image
+                    src="/images/slider/slide3-mbl.webp"
+                    alt="Canvas art works"
+                    width={2000}
+                    height={550}
+                    priority={true}
+                    className="object-cover"
+                  />
+                )}
               </div>
             </SwiperSlide>
           </Swiper>
