@@ -59,6 +59,7 @@ export default function HomeBannerNew() {
                     width={2000}
                     height={550}
                     priority={true}
+                    rel="preload"
                     className="object-cover"
                   />
                 )}
@@ -69,6 +70,7 @@ export default function HomeBannerNew() {
                     width={750}
                     height={350}
                     priority={true}
+                    rel="preload"
                     className="object-cover"
                   />
                 )}
@@ -83,6 +85,7 @@ export default function HomeBannerNew() {
                     width={2000}
                     height={550}
                     priority={true}
+                    rel="preload"
                     className="object-cover"
                   />
                 )}
@@ -93,6 +96,7 @@ export default function HomeBannerNew() {
                     width={750}
                     height={350}
                     priority={true}
+                    rel="preload"
                     className="object-cover"
                   />
                 )}
@@ -107,6 +111,7 @@ export default function HomeBannerNew() {
                     width={2000}
                     height={550}
                     priority={true}
+                    rel="preload"
                     className="object-cover"
                   />
                 )}
@@ -117,6 +122,7 @@ export default function HomeBannerNew() {
                     width={750}
                     height={350}
                     priority={true}
+                    rel="preload"
                     className="object-cover"
                   />
                 )}
