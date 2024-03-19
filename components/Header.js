@@ -6,6 +6,7 @@ import NavLangToggle from "./NavLangToggle";
 import en from "../locales/en";
 import fr from "../locales/fr";
 import MobileSubmenu from "./MobileSubmenu";
+import Image from "next/image";
 
 export default function Header() {
   const router = useRouter();
@@ -97,10 +98,12 @@ export default function Header() {
             <div className="logo flex justify-between">
               <div className="w-[331px] mdlg:w-[200px] md:w-[185px]">
                 <Link href="/" passHref>
-                  <img
+                  <Image
                     src={t.header.nav_logo_src}
                     className="w-full max-w-[250px] mt-[10px]"
                     alt={t.header.nav_logo_alt}
+                    width={250}
+                    height={250}
                   />
                 </Link>
               </div>
@@ -124,10 +127,12 @@ export default function Header() {
                           router.pathname == "/" + item.href ? "active" : ""
                         } desktop-nav-item transition-all hover:underline`}
                       >
-                        <img
+                        <Image
                           className={`desktop-nav-icon`}
                           src={item.img}
                           alt={item.alt}
+                          width={250}
+                          height={250}
                         />
                         <span
                           className={`desktop-nav-text ${
