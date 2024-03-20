@@ -201,6 +201,7 @@ export default function Header() {
               </div>*/}
 
               <a
+                role="button"
                 ref={dropdown}
                 id="nav-button"
                 className={`${mobileNavExpanded ? "open" : ""} nav-button`}

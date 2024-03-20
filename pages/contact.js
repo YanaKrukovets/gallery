@@ -65,6 +65,7 @@ export default function Contact() {
                     className="max-w-[20px] w-[20px]"
                   />
                   <a
+                    role="button"
                     className="underline ml-[10px]"
                     href="mailto:krukovets.yana@gmail.com"
                   >
@@ -73,9 +74,11 @@ export default function Contact() {
                 </div>
                 <div className="flex">
                   <a
+                    role="button"
                     className=""
                     href="https://www.instagram.com/sunny_art87/"
                     target="_blank"
+                    aria-label="New tab"
                   >
                     <Image
                       src="/images/icons/square-instagram.svg"
@@ -87,9 +90,11 @@ export default function Contact() {
                     />
                   </a>
                   <a
+                    role="link"
                     className="underline ml-[10px]"
                     href="https://www.instagram.com/sunny_art87/"
                     target="_blank"
+                    aria-label="New tab"
                   >
                     sunny_art87
                   </a>

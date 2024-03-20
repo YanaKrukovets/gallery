@@ -428,6 +428,7 @@ export default function Artworks() {
                   <strong className="font-[600]">Filter</strong>
                 </h2>
                 <a
+                  role="button"
                   onClick={() => setMobileExpanded(!mobileExpanded)}
                   href="#"
                   className="text-[22px] font-anek border-green py-[10px] mt-[20px] pl-[15px] md:block md:border-[4px] hidden"
@@ -441,6 +442,7 @@ export default function Artworks() {
                   }`}
                 >
                   <a
+                    role="button"
                     onClick={() => {
                       setImages(allImages);
                       setActive1(true);
@@ -459,6 +461,7 @@ export default function Artworks() {
                   </a>
 
                   <a
+                    role="button"
                     onClick={() => {
                       setImages(space);
 
@@ -477,6 +480,7 @@ export default function Artworks() {
                     <strong>Space</strong>, wooden, round
                   </a>
                   <a
+                    role="button"
                     onClick={() => {
                       setImages(petr);
                       setActive1(false);
@@ -494,6 +498,7 @@ export default function Artworks() {
                     <strong>Petrykivka folk art</strong>, wooden
                   </a>
                   <a
+                    role="button"
                     onClick={() => {
                       setImages(images1);
                       setActive1(false);
@@ -511,6 +516,7 @@ export default function Artworks() {
                     <strong>Cats</strong>, wooden, round
                   </a>
                   <a
+                    role="button"
                     onClick={() => {
                       setImages(canvas);
                       setActive1(false);

@@ -18,9 +18,11 @@ export default function Footer() {
           <div className="flex items-center justify-between md:flex-col">
             <div className="flex md:mb-[10px]">
               <a
+                role="button"
                 className=""
                 href="https://www.instagram.com/sunny_art87/"
                 target="_blank"
+                aria-label="New tab"
               >
                 <Image
                   src="/images/icons/square-instagram.svg"
@@ -32,9 +34,11 @@ export default function Footer() {
                 />
               </a>
               <a
+                role="button"
                 className="ml-[10px] mt-[10px]"
                 href="https://www.instagram.com/sunny_art87/"
                 target="_blank"
+                aria-label="New tab"
               >
                 sunny_art87
               </a>

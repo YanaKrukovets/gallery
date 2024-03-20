@@ -108,6 +108,7 @@ export default function HomePage() {
         <p className="text-[20px]">
           More artworks you can find{" "}
           <a
+            role="link"
             className="border-b-[2px] border-green max-w-[350px] font-inka text-green"
             href="/artworks"
           >
