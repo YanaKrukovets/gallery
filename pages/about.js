@@ -72,9 +72,20 @@ export default function About() {
                 nature, fleeting moments and the play of light. I am creating
                 the things that I like in my own style.
               </p>
-              <p className="mb-[15px]" role="heading">
-                Welcome to my Online Gallery! I hope you will find something
-                what you like!
+              <p className="mb-[15px]">
+                Welcome to my Online Gallery! Nice to see you here. I hope you
+                will find something what you like!
+              </p>
+              <p className="text-[20px]">
+                All artworks you can find{" "}
+                <a
+                  role="link"
+                  className="border-b-[2px] border-green max-w-[350px] font-inka text-green"
+                  href="/artworks"
+                >
+                  <i>here</i>
+                </a>
+                .
               </p>
             </div>
           </div>
