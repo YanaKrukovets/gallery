@@ -275,6 +275,16 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas8.webp",
+      alt: "Red flowers on the green background",
+      width: 150,
+      height: 70,
+      name: "Green Spring",
+      size: "16 inch X 20 inch",
+      description:
+        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrilic hand-painting 100% bleached cotton.",
+    },
+    {
       src: "/images/components/artworks/canvas1.webp",
       alt: "Three deers on the snow. Night view with big moon",
       width: 150,
@@ -331,10 +341,10 @@ export default function Artworks() {
     },
     {
       src: "/images/components/artworks/canvas6.webp",
-      alt: "Colorful flowers",
+      alt: "Colorful spring flowers",
       width: 150,
       height: 70,
-      name: "Spring",
+      name: "Spring flowers",
       size: "8 inch X 10 inch",
       description:
         "Colorful flowers. Acrilic hand-painting. Canvas papper. 100% bleached cotton.",

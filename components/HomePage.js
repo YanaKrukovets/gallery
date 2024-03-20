@@ -1,18 +1,20 @@
 import React from "react";
-import { useRouter } from "next/router";
-import en from "../locales/en";
 import Artwork from "../components/Artwork";
 
 import HomeBannerNew from "./HomeBannerNew";
-import fr from "../locales/fr";
 
 export default function HomePage() {
-  const router = useRouter();
-
-  const { locale, asPath } = router;
-  const t = locale === "en" ? en : fr;
-
   const images = [
+    {
+      src: "/images/components/artworks/canvas8.webp",
+      alt: "Red flowers on the green background",
+      width: 140,
+      height: 60,
+      name: "Green Spring",
+      size: "16 inch X 20 inch",
+      description:
+        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrilic hand-painting 100% bleached cotton.",
+    },
     {
       src: "/images/components/artworks/cats1.webp",
       alt: "Lovely Valentines purple and white cats",
@@ -63,7 +65,7 @@ export default function HomePage() {
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       description:
-        "Purple dots and purple rectangles on the green-yellow background. Abstract acrilic hand-painting. 100% bleached cotton.",
+        "Purple dots and purple rectangles on the green-yellow background. Abstract acrilic hand painting. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/petr7.webp",
@@ -83,12 +85,12 @@ export default function HomePage() {
       name: "Red flowers",
       size: "round, diameter - 4 inch",
       description:
-        "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrilic hand painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 
   return (
-    <div className="bg-lightGray pb-[10px]">
+    <div className="bg-lightGray pb-[40px]">
       <HomeBannerNew />
       <div className="max-w-wrapper mx-auto px-5">
         <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
@@ -99,6 +101,19 @@ export default function HomePage() {
             return <Artwork image={image} key={index} />;
           })}
         </div>
+        <p className="text-[20px]">
+          Welcome to <i>Online Art Gallery</i> by Yana Krukovets. Nice to see
+          you here. I hope you will find something what you like!
+        </p>
+        <p className="text-[20px]">
+          More artworks you can find{" "}
+          <a
+            className="border-b-[2px] border-green max-w-[350px] font-inka text-green"
+            href="/artworks"
+          >
+            <i>here</i>
+          </a>
+        </p>
       </div>
     </div>
   );

@@ -65,7 +65,13 @@ export default function Layout({ children }) {
         <link
           rel="apple-touch-icon"
           sizes="57x57"
-          href="https://yanakrukovets-artgallery.ca/images/apple-touch-icon.png"
+          href="https://yanakrukovets-artgallery.ca/apple-touch-icon.png"
+        />
+
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://yanakrukovets-artgallery.ca/favicon.ico"
         />
       </Head>
 
