@@ -55,7 +55,7 @@ export default function HomeBannerNew() {
                 {isMobile && (
                   <Image
                     src="/images/slider/slide1.webp"
-                    alt="Wall art. Acrylic dolphin. Sunset"
+                    alt="Wall art. Nature. Abstract artwork. Hand painted canvas"
                     width={2000}
                     height={550}
                     priority={true}
@@ -66,7 +66,7 @@ export default function HomeBannerNew() {
                 {!isMobile && (
                   <Image
                     src="/images/slider/slide1-mbl.webp"
-                    alt="Wall art. Acrylic dolphin. Sunset"
+                    alt="Wall art. Nature. Abstract artwork. Hand painted canvas"
                     width={750}
                     height={350}
                     priority={true}

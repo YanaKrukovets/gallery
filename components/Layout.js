@@ -25,7 +25,7 @@ export default function Layout({ children }) {
         <title>Online Art Gallery by Yana Krukovets</title>
         <meta
           name="description"
-          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor artworks. Abstract space nature wall art, mini art"
+          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art"
         />
 
         <meta
