@@ -4,7 +4,6 @@ import React, { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 import en from "../locales/en";
 import fr from "../locales/fr";
-import MobileSubmenu from "./MobileSubmenu";
 import Image from "next/image";
 
 export default function Header() {
@@ -161,11 +160,7 @@ export default function Header() {
                   return (
                     <div key={index}>
                       {item.submenu ? (
-                        <MobileSubmenu
-                          isSubmenu={isSubmenu}
-                          setIsSubmenu={setIsSubmenu}
-                          submenu={item}
-                        />
+                        <></>
                       ) : (
                         <Link
                           href={item.href}
