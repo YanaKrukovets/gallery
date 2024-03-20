@@ -50,7 +50,11 @@ export default function Artwork({ image }) {
 
       {isOpen && (
         <div className="modal-overlay">
-          <div className="modal sm:max-w-[90vw]">
+          <div
+            className="modal sm:max-w-[90vw]"
+            aria-modal={true}
+            role="dialog"
+          >
             <span className="close" onClick={closeModal}>
               &times;
             </span>
