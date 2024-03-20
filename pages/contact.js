@@ -53,8 +53,9 @@ export default function Contact() {
       )}
       <div className="bg-lightGray pb-[10px]">
         <div className="max-w-wrapper mx-auto px-5 py-[50px] sm:py-[40px]">
-          <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
-            Yana Krukovets
+          <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[550px] font-inka">
+            <span className="md:hidden">Yana Krukovets.</span> Contact
+            information
           </h1>
           <div className="mt-[40px] sm:mt-[30px] max-w-[700px] mx-auto">
             <div className="flex justify-between">

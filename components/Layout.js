@@ -76,7 +76,7 @@ export default function Layout({ children }) {
       </Head>
 
       <main className={`verflow-x-hidden w-full`} id="main">
-        <a href="#main" class="skip-to-main-content-link">
+        <a href="#main" className="skip-to-main-content-link">
           Skip to main content
         </a>
         <Header />
