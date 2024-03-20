@@ -38,9 +38,9 @@ export default function Artwork({ image }) {
           <h2 className="text-[22px] font-anek font-[600] max-w-[170px] text-center leading-[24px] mt-[5px]">
             {image.name}
           </h2>
-          <h3 className="border-green border-b-[1px] border-t-[1px] py-[3px] my-[10px]">
+          <p className="border-green border-b-[1px] border-t-[1px] py-[3px] my-[10px]">
             {image.size}
-          </h3>
+          </p>
 
           <p className="text-gray text-[14px] text-ellipsis whitespace-nowrap w-[170px] overflow-hidden">
             {image.description}
@@ -67,9 +67,9 @@ export default function Artwork({ image }) {
               <h2 className="text-[22px] font-anek font-[600] text-center leading-[24px] mt-[5px]">
                 {image.name}
               </h2>
-              <h3 className="border-green border-b-[2px] border-t-[2px] py-[5px] my-[10px] text-center">
+              <p className="border-green border-b-[2px] border-t-[2px] py-[5px] my-[10px] text-center">
                 {image.size}
-              </h3>
+              </p>
               <p className="text-gray text-[16px]">{image.description}</p>
             </div>
           </div>

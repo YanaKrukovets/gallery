@@ -146,7 +146,7 @@ export default function Artworks() {
       name: "Red rooster",
       size: "rectangle, 4 inch",
       description:
-        "Red rooster with red flowers and green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red rooster with bright red flowers and green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr6.webp",
@@ -156,7 +156,7 @@ export default function Artworks() {
       name: "Rooster",
       size: "round, diameter - 4 inch",
       description:
-        "Red rooster with red flowers and green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Beautiful Red rooster with red flowers and green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 
@@ -213,13 +213,13 @@ export default function Artworks() {
     },
     {
       src: "/images/components/artworks/space1.webp",
-      alt: "Black tree on the black space background with purple and orange stars",
+      alt: "Black tree on the space background with the bright purple and orange stars",
       width: 150,
       height: 70,
       name: "Purple night",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the black space background with purple and orange stars. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the black space background with the bright purple and orange stars. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space2.webp",
@@ -229,47 +229,47 @@ export default function Artworks() {
       name: "Orange night",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the black space background with purple and orange stars. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the magic space background with purple and orange stars. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space3.webp",
-      alt: "Black tree on the black space background with purple nothern lights",
+      alt: "Black tree on the black space background with purple northern lights",
       width: 150,
       height: 70,
-      name: "Purple Nothern lights",
+      name: "Purple Northern lights",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the orange-black space background with the beautiful purple northern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space4.webp",
-      alt: "Black trees on the black space background with purple nothern lights",
+      alt: "Black trees on the black space background with purple northern lights",
       width: 150,
       height: 70,
       name: "Trees at night",
       size: "round, diameter - 4 inch",
       description:
-        "Black trees on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black trees on the orange-black space background with purple northern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space5.webp",
-      alt: "Black tree on the black space background with purple nothern lights",
+      alt: "Black tree on the black space background with purple northern lights",
       width: 150,
       height: 70,
       name: "Night tree",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the orange-black space background with purple northern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space9.webp",
-      alt: "Black tree on the black space background with purple nothern lights",
+      alt: "Black tree on the black space background with purple northern lights",
       width: 150,
       height: 70,
       name: "Milky Way",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the orange-black space background with purple nothern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the orange-black Milky Way space background with the bright purple northern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 
@@ -408,118 +408,123 @@ export default function Artworks() {
       )}
       <div className="max-w-inner">
         <div className="max-w-wrapper px-5 mx-auto">
-          <div className="flex w-full bg-lightGray justify-between md:flex-col">
-            <div className="py-[10px] border-l-[2px] border-green bg-white md:relative md:border-0">
-              <h2 className="text-[22px] font-anek border-b-[4px] border-green pb-[10px] mt-[30px] pl-[15px] md:hidden">
-                <strong className="font-[600]">Filter</strong>
-              </h2>
-              <a
-                onClick={() => setMobileExpanded(!mobileExpanded)}
-                href="#"
-                className="text-[22px] font-anek border-green py-[10px] mt-[20px] pl-[15px] md:block md:border-[4px] hidden"
-              >
-                <strong className="font-[600]">Filter</strong>
-              </a>
-
-              <div
-                className={`flex flex-col md:z-[10] md:bg-white md:w-full md:border-l-[2px] md:border-r-[2px] md:border-green md:h-[95vh] ${
-                  mobileExpanded ? "md:absolute" : "md:hidden"
-                }`}
-              >
+          <div className="bg-lightGray pt-[30px]">
+            <h1 className="ml-[30px] text-[24px] sm:text-[20px] mb-[20px] uppercase max-w-[350px] font-inka">
+              Online Artworks Gallery
+            </h1>
+            <div className="flex w-full justify-between md:flex-col">
+              <div className="py-[10px] border-l-[2px] border-green bg-white md:relative md:border-0">
+                <h2 className="text-[22px] font-anek border-b-[4px] border-green pb-[10px] mt-[30px] pl-[15px] md:hidden">
+                  <strong className="font-[600]">Filter</strong>
+                </h2>
                 <a
-                  onClick={() => {
-                    setImages(allImages);
-                    setActive1(true);
-                    setActive2(false);
-                    setActive3(false);
-                    setActive4(false);
-                    setActive5(false);
-                    setMobileExpanded(!mobileExpanded);
-                  }}
+                  onClick={() => setMobileExpanded(!mobileExpanded)}
                   href="#"
-                  className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
-                    active1 ? "bg-lightGray" : ""
-                  }`}
+                  className="text-[22px] font-anek border-green py-[10px] mt-[20px] pl-[15px] md:block md:border-[4px] hidden"
                 >
-                  All artworks
+                  <strong className="font-[600]">Filter</strong>
                 </a>
 
-                <a
-                  onClick={() => {
-                    setImages(space);
+                <div
+                  className={`flex flex-col md:z-[10] md:bg-white md:w-full md:border-l-[2px] md:border-r-[2px] md:border-green md:h-[95vh] ${
+                    mobileExpanded ? "md:absolute" : "md:hidden"
+                  }`}
+                >
+                  <a
+                    onClick={() => {
+                      setImages(allImages);
+                      setActive1(true);
+                      setActive2(false);
+                      setActive3(false);
+                      setActive4(false);
+                      setActive5(false);
+                      setMobileExpanded(!mobileExpanded);
+                    }}
+                    href="#"
+                    className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                      active1 ? "bg-lightGray" : ""
+                    }`}
+                  >
+                    All artworks
+                  </a>
 
-                    setActive1(false);
-                    setActive2(true);
-                    setActive3(false);
-                    setActive4(false);
-                    setActive5(false);
-                    setMobileExpanded(!mobileExpanded);
-                  }}
-                  href="#"
-                  className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
-                    active2 ? "bg-lightGray" : ""
-                  }`}
-                >
-                  <strong>Space</strong>, wooden, round
-                </a>
-                <a
-                  onClick={() => {
-                    setImages(petr);
-                    setActive1(false);
-                    setActive2(false);
-                    setActive3(true);
-                    setActive4(false);
-                    setActive5(false);
-                    setMobileExpanded(!mobileExpanded);
-                  }}
-                  href="#"
-                  className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
-                    active3 ? "bg-lightGray" : ""
-                  }`}
-                >
-                  <strong>Petrykivka folk art</strong>, wooden
-                </a>
-                <a
-                  onClick={() => {
-                    setImages(images1);
-                    setActive1(false);
-                    setActive2(false);
-                    setActive3(false);
-                    setActive4(true);
-                    setActive5(false);
-                    setMobileExpanded(!mobileExpanded);
-                  }}
-                  href="#"
-                  className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
-                    active4 ? "bg-lightGray" : ""
-                  }`}
-                >
-                  <strong>Cats</strong>, wooden, round
-                </a>
-                <a
-                  onClick={() => {
-                    setImages(canvas);
-                    setActive1(false);
-                    setActive2(false);
-                    setActive3(false);
-                    setActive4(false);
-                    setActive5(true);
-                    setMobileExpanded(!mobileExpanded);
-                  }}
-                  href="#"
-                  className={`p-[10px] hover:bg-lightGray active:bg-lightGray ${
-                    active5 ? "bg-lightGray" : ""
-                  }`}
-                >
-                  <strong>Canvases</strong>
-                </a>
+                  <a
+                    onClick={() => {
+                      setImages(space);
+
+                      setActive1(false);
+                      setActive2(true);
+                      setActive3(false);
+                      setActive4(false);
+                      setActive5(false);
+                      setMobileExpanded(!mobileExpanded);
+                    }}
+                    href="#"
+                    className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                      active2 ? "bg-lightGray" : ""
+                    }`}
+                  >
+                    <strong>Space</strong>, wooden, round
+                  </a>
+                  <a
+                    onClick={() => {
+                      setImages(petr);
+                      setActive1(false);
+                      setActive2(false);
+                      setActive3(true);
+                      setActive4(false);
+                      setActive5(false);
+                      setMobileExpanded(!mobileExpanded);
+                    }}
+                    href="#"
+                    className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                      active3 ? "bg-lightGray" : ""
+                    }`}
+                  >
+                    <strong>Petrykivka folk art</strong>, wooden
+                  </a>
+                  <a
+                    onClick={() => {
+                      setImages(images1);
+                      setActive1(false);
+                      setActive2(false);
+                      setActive3(false);
+                      setActive4(true);
+                      setActive5(false);
+                      setMobileExpanded(!mobileExpanded);
+                    }}
+                    href="#"
+                    className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                      active4 ? "bg-lightGray" : ""
+                    }`}
+                  >
+                    <strong>Cats</strong>, wooden, round
+                  </a>
+                  <a
+                    onClick={() => {
+                      setImages(canvas);
+                      setActive1(false);
+                      setActive2(false);
+                      setActive3(false);
+                      setActive4(false);
+                      setActive5(true);
+                      setMobileExpanded(!mobileExpanded);
+                    }}
+                    href="#"
+                    className={`p-[10px] hover:bg-lightGray active:bg-lightGray ${
+                      active5 ? "bg-lightGray" : ""
+                    }`}
+                  >
+                    <strong>Canvases</strong>
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <div className="flex my-[30px] w-[75%] pr-[20px] md:pr-0 md:w-full flex-wrap h-[600px] overflow-scroll md:mx-auto">
-              {images.map((image, index) => {
-                return <Artwork image={image} key={index} />;
-              })}
+              <div className="flex my-[30px] w-[75%] pr-[20px] md:pr-0 md:w-full flex-wrap h-[600px] overflow-scroll md:mx-auto">
+                {images.map((image, index) => {
+                  return <Artwork image={image} key={index} />;
+                })}
+              </div>
             </div>
           </div>
         </div>

@@ -61,6 +61,12 @@ export default function Layout({ children }) {
           name="twitter:image"
           content="https://yanakrukovets-artgallery.ca/images/og-image.webp"
         />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="57x57"
+          href="https://yanakrukovets-artgallery.ca/images/apple-touch-icon.png"
+        />
       </Head>
 
       <main className={`verflow-x-hidden w-full`}>
