@@ -30,7 +30,7 @@ export default function HomeBannerNew() {
     return width > size;
   };
 
-  const isMobile = useWindowWide(760);
+  const isMobile = useWindowWide(768);
 
   return (
     <>

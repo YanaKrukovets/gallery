@@ -382,7 +382,7 @@ export default function Artworks() {
     return width > size;
   };
 
-  const isMobile = useWindowWide(760);
+  const isMobile = useWindowWide(768);
 
   return (
     <>
@@ -401,7 +401,7 @@ export default function Artworks() {
           src="/images/banner-mbl.webp"
           alt="An orange abstract art work"
           width={800}
-          height={150}
+          height={85}
           priority={true}
           className="min-h-[80px] object-cover"
         />
@@ -440,7 +440,7 @@ export default function Artworks() {
                       setActive5(false);
                       setMobileExpanded(!mobileExpanded);
                     }}
-                    href="#"
+                    href="#all"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
                       active1 ? "bg-lightGray" : ""
                     }`}
@@ -459,7 +459,7 @@ export default function Artworks() {
                       setActive5(false);
                       setMobileExpanded(!mobileExpanded);
                     }}
-                    href="#"
+                    href="#space"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
                       active2 ? "bg-lightGray" : ""
                     }`}
@@ -476,7 +476,7 @@ export default function Artworks() {
                       setActive5(false);
                       setMobileExpanded(!mobileExpanded);
                     }}
-                    href="#"
+                    href="#petrykivka"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
                       active3 ? "bg-lightGray" : ""
                     }`}
@@ -493,7 +493,7 @@ export default function Artworks() {
                       setActive5(false);
                       setMobileExpanded(!mobileExpanded);
                     }}
-                    href="#"
+                    href="#cats"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
                       active4 ? "bg-lightGray" : ""
                     }`}
@@ -510,7 +510,7 @@ export default function Artworks() {
                       setActive5(true);
                       setMobileExpanded(!mobileExpanded);
                     }}
-                    href="#"
+                    href="#canvas"
                     className={`p-[10px] hover:bg-lightGray active:bg-lightGray ${
                       active5 ? "bg-lightGray" : ""
                     }`}

@@ -15,8 +15,8 @@ export default function Footer() {
     <footer className="max-w-inner xxxl:px-0">
       <div className="footer-wrapper">
         <div className="max-w-wrapper px-5 mx-auto">
-          <div className="flex items-center justify-between">
-            <div className="flex">
+          <div className="flex items-center justify-between md:flex-col">
+            <div className="flex md:mb-[10px]">
               <a
                 className=""
                 href="https://www.instagram.com/sunny_art87/"
@@ -28,7 +28,7 @@ export default function Footer() {
                   width={40}
                   height={40}
                   priority={true}
-                  className="object-cover transition-transform duration-300 transform hover:scale-110"
+                  className="object-cover transition-transform duration-300 transform hover:scale-110 md:max-w-[30px]"
                 />
               </a>
               <a
@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
             <p className="text-center">{t.footer.text}</p>
             <div className="">
-              <Link href="/" passHref>
+              <Link href="/" passHref className="md:hidden">
                 <Image
                   src="/images/logos/logo-en.png"
                   className="w-full max-w-[200px] mt-[10px] object-cover transition-transform duration-300 transform hover:scale-110"
