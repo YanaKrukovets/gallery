@@ -30,7 +30,7 @@ export default function Artworks() {
       alt: "Lovely Valentines pink and white cats",
       width: 150,
       height: 70,
-      name: "Pink and white cats in love",
+      name: "Lovely Valentines pink and white cats",
       size: "round, diameter - 4 inch",
       description:
         "Pink and white cats on the black background with yellow and silver sparkles and pink hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
@@ -50,7 +50,7 @@ export default function Artworks() {
       alt: "Lovely Valentines white and purple cats",
       width: 150,
       height: 70,
-      name: "White and purple cats in love",
+      name: "Cats in love",
       size: "round, diameter - 4 inch",
       description:
         "White and purple cats on the black background with silver sparkles and purple hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
@@ -70,7 +70,7 @@ export default function Artworks() {
       alt: "Lovely Valentines pink and purple cats",
       width: 150,
       height: 70,
-      name: "Pink and purple cats in love",
+      name: "Valentines cats in love",
       size: "round, diameter - 4 inch",
       description:
         "Pink and purple cats on the black background with silver sparkles and purple hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
@@ -93,7 +93,7 @@ export default function Artworks() {
       alt: "Petrykivka folk art. Red flowers with the green leaves on the black background",
       width: 150,
       height: 70,
-      name: "Red flowers",
+      name: "Bright Red flowers",
       size: "round, diameter - 4 inch",
       description:
         "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
@@ -143,7 +143,7 @@ export default function Artworks() {
       alt: "Petrykivka folk art. Red rooster with red flowers",
       width: 150,
       height: 70,
-      name: "Red rooster",
+      name: "Petrykivka Red rooster",
       size: "rectangle, 4 inch",
       description:
         "Red rooster with bright red flowers and green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
@@ -420,7 +420,7 @@ export default function Artworks() {
         <div className="max-w-wrapper px-5 mx-auto">
           <div className="bg-lightGray pt-[30px]">
             <h1 className="ml-[30px] text-[24px] sm:text-[20px] mb-[20px] uppercase max-w-[350px] font-inka">
-              Online Artworks Gallery
+              Online Art Gallery
             </h1>
             <div className="flex w-full justify-between md:flex-col">
               <div className="py-[10px] border-l-[2px] border-green bg-white md:relative md:border-0">
