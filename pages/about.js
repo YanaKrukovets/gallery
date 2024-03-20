@@ -61,7 +61,7 @@ export default function About() {
               className="md:mx-auto md:max-w-[250px] sm:max-w-[200px] object-cover"
             />
             <div className="text-[20px] leading-[22px] ml-[30px] flex flex-col justify-center w-[65%] xmd:w-[55%] md:ml-0 md:w-[100%] md:mt-[30px]">
-              <p className="mb-[15px]">
+              <p className="mb-[15px]" role="heading">
                 Hello! My name is Yana and I am an artist.
               </p>
               <p className="mb-[15px]">
@@ -72,7 +72,7 @@ export default function About() {
                 nature, fleeting moments and the play of light. I am creating
                 the things that I like in my own style.
               </p>
-              <p className="mb-[15px]">
+              <p className="mb-[15px]" role="heading">
                 Welcome to my Online Gallery! I hope you will find something
                 what you like!
               </p>
