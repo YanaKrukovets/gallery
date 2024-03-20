@@ -31,14 +31,26 @@ export default function Contact() {
 
   return (
     <>
-      <Image
-        src="/images/banner.webp"
-        alt="An orange abstract art work"
-        width={2000}
-        height={240}
-        priority={true}
-        className="min-h-[150px] object-cover md:min-h-[100px]"
-      />
+      {isMobile && (
+        <Image
+          src="/images/banner.webp"
+          alt="An orange abstract art work"
+          width={2000}
+          height={240}
+          priority={true}
+          className="min-h-[150px] object-cover"
+        />
+      )}
+      {!isMobile && (
+        <Image
+          src="/images/banner-mbl.webp"
+          alt="An orange abstract art work"
+          width={800}
+          height={150}
+          priority={true}
+          className="min-h-[80px] object-cover"
+        />
+      )}
       <div className="bg-lightGray pb-[10px]">
         <div className="max-w-wrapper mx-auto px-5 py-[50px] sm:py-[40px]">
           <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
