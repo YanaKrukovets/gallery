@@ -90,7 +90,7 @@ export default function About() {
                   role="link"
                   className="border-b-[2px] border-green max-w-[350px] font-inka text-green"
                   href="/artworks"
-                  aria-label="link"
+                  aria-label="artworks"
                 >
                   <i>here</i>
                 </a>

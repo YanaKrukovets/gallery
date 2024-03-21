@@ -103,7 +103,7 @@ export default function Contact() {
                     className="underline ml-[10px]"
                     href="https://www.instagram.com/sunny_art87/"
                     target="_blank"
-                    aria-label="link"
+                    aria-label="sunny_art87"
                   >
                     sunny_art87
                   </a>
