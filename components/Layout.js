@@ -22,12 +22,6 @@ export default function Layout({ children }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-        <title>Online Art Gallery by Yana Krukovets</title>
-        <meta
-          name="description"
-          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art"
-        />
-
         <meta
           property="og:url"
           content="https://yanakrukovets-artgallery.ca/"

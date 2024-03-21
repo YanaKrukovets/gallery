@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Artwork from "../components/Artwork";
+import Head from "next/head";
 
 export default function Artworks() {
   const images1 = [
@@ -396,6 +397,13 @@ export default function Artworks() {
 
   return (
     <>
+      <Head>
+        <title>Online Art Gallery by Yana Krukovets. All artworks</title>
+        <meta
+          name="description"
+          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art, folk art, Petrykivka folk art"
+        />
+      </Head>
       {isMobile && (
         <Image
           src="/images/banner.webp"

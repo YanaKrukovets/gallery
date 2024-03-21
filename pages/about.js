@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import Head from "next/head";
 
 export default function About() {
   const useWindowWide = (size) => {
@@ -26,6 +27,13 @@ export default function About() {
   const isMobile = useWindowWide(768);
   return (
     <>
+      <Head>
+        <title>Online Art Gallery by Yana Krukovets. About the artist</title>
+        <meta
+          name="description"
+          content="Online Art Gallery by Yana Krukovets. About the artist"
+        />
+      </Head>
       {isMobile && (
         <Image
           src="/images/banner.webp"
@@ -61,7 +69,7 @@ export default function About() {
               className="md:mx-auto md:max-w-[250px] sm:max-w-[200px] object-cover"
             />
             <div className="text-[20px] leading-[22px] ml-[30px] flex flex-col justify-center w-[65%] xmd:w-[55%] md:ml-0 md:w-[100%] md:mt-[30px]">
-              <p className="mb-[15px]" role="heading">
+              <p className="mb-[15px]" role="heading" aria-level="2">
                 Hello! My name is Yana and I am an artist.
               </p>
               <p className="mb-[15px]">

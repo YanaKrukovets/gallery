@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Head from "next/head";
 
 export default function Contact() {
   const useWindowWide = (size) => {
@@ -31,6 +32,13 @@ export default function Contact() {
 
   return (
     <>
+      <Head>
+        <title>Online Art Gallery by Yana Krukovets. Contact information</title>
+        <meta
+          name="description"
+          content="Online Art Gallery by Yana Krukovets. Contact information, email, Instagram page"
+        />
+      </Head>
       {isMobile && (
         <Image
           src="/images/banner.webp"
