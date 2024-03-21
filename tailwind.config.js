@@ -29,10 +29,10 @@ module.exports = {
       xxxs: { max: "305px" },
     },
     colors: {
-      green: "#83C5BE",
+      green: "#2A5A51",
       gray: "#555B5E",
       textColor: "#25323c",
-      lightGray: "#f1f1f1",
+      lightGray: "#F2F2F2",
       yellow: "#FAED1A",
       middleGray: "#616060",
 
