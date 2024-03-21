@@ -87,7 +87,7 @@ export default function Artworks() {
       name: "Red flower",
       size: "round, diameter - 4 inch",
       description:
-        "Red flower with the green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red flower with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr1.webp",
@@ -97,7 +97,7 @@ export default function Artworks() {
       name: "Bright Red flowers",
       size: "round, diameter - 4 inch",
       description:
-        "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr2.webp",
@@ -107,7 +107,7 @@ export default function Artworks() {
       name: "Blue flowers",
       size: "round, diameter - 4 inch",
       description:
-        "Blue and white flowers with the green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Blue and white flowers with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr8.webp",
@@ -117,7 +117,7 @@ export default function Artworks() {
       name: "Red rooster",
       size: "round, diameter - 4 inch",
       description:
-        "Red rooster with red flowers and green leaves on the purple background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red rooster with red flowers and green leaves on the purple background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr3.webp",
@@ -127,7 +127,7 @@ export default function Artworks() {
       name: "Red love",
       size: "round, diameter - 4 inch",
       description:
-        "Red and white flowers with the green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red and white flowers with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr4.webp",
@@ -137,7 +137,7 @@ export default function Artworks() {
       name: "Blue",
       size: "round, diameter - 4 inch",
       description:
-        "Blue flower with the green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Blue flower with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr5.webp",
@@ -147,7 +147,7 @@ export default function Artworks() {
       name: "Petrykivka Red rooster",
       size: "rectangle, 4 inch",
       description:
-        "Red rooster with bright red flowers and green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red rooster with bright red flowers and green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr6.webp",
@@ -157,7 +157,7 @@ export default function Artworks() {
       name: "Rooster",
       size: "round, diameter - 4 inch",
       description:
-        "Beautiful Red rooster with red flowers and green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Beautiful Red rooster with red flowers and green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 
@@ -170,7 +170,7 @@ export default function Artworks() {
       name: "Night view",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the orange-black space background. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Original multicolored round acrylic painting on the wood. Black tree on the orange-black space background. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space8.webp",
@@ -180,7 +180,7 @@ export default function Artworks() {
       name: "Gray moon",
       size: "round, diameter - 4 inch",
       description:
-        "Gray moon. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Gray moon. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space10.webp",
@@ -190,7 +190,7 @@ export default function Artworks() {
       name: "Neptune",
       size: "round, diameter - 4 inch",
       description:
-        "Blue Neptune. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Blue Neptune. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space11.webp",
@@ -200,7 +200,7 @@ export default function Artworks() {
       name: "Mars",
       size: "round, diameter - 4 inch",
       description:
-        "Red Mars. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red Mars. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space7.webp",
@@ -210,7 +210,7 @@ export default function Artworks() {
       name: "Night mountains",
       size: "round, diameter - 4 inch",
       description:
-        "Night mountains on the purple-black space background. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Night mountains on the purple-black space background. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space1.webp",
@@ -220,7 +220,7 @@ export default function Artworks() {
       name: "Purple night",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the black space background with the bright purple and orange stars. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the black space background with the bright purple and orange stars. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space2.webp",
@@ -230,7 +230,7 @@ export default function Artworks() {
       name: "Orange night",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the magic space background with purple and orange stars. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the magic space background with purple and orange stars. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space3.webp",
@@ -240,7 +240,7 @@ export default function Artworks() {
       name: "Purple Northern lights",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the orange-black space background with the beautiful purple northern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the orange-black space background with the beautiful purple northern lights. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space4.webp",
@@ -250,7 +250,7 @@ export default function Artworks() {
       name: "Trees at night",
       size: "round, diameter - 4 inch",
       description:
-        "Black trees on the orange-black space background with purple northern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black trees on the orange-black space background with purple northern lights. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space5.webp",
@@ -260,7 +260,7 @@ export default function Artworks() {
       name: "Night tree",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the orange-black space background with purple northern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the orange-black space background with purple northern lights. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space9.webp",
@@ -270,7 +270,7 @@ export default function Artworks() {
       name: "Milky Way",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the orange-black Milky Way space background with the bright purple northern lights. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Black tree on the orange-black Milky Way space background with the bright purple northern lights. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 
@@ -283,7 +283,7 @@ export default function Artworks() {
       name: "Green Spring",
       size: "16 inch X 20 inch",
       description:
-        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrilic hand-painting 100% bleached cotton.",
+        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas1.webp",
@@ -294,7 +294,7 @@ export default function Artworks() {
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       description:
-        "Three deers on the snow. Night view with big moon. Acrilic hand-painting. 100% bleached cotton.",
+        "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas2.webp",
@@ -305,7 +305,7 @@ export default function Artworks() {
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       description:
-        "Purple dots and purple rectangles on the green-yellow background. Abstract acrilic hand-painting. 100% bleached cotton.",
+        "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand-painting. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas5.webp",
@@ -316,7 +316,7 @@ export default function Artworks() {
       size: "16 inch X 20 inch",
       b: "my-[15px]",
       description:
-        "An orange abstract. Abstract acrilic hand-painting. 100% bleached cotton.",
+        "An orange abstract. Abstract acrylic hand-painting. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas4.webp",
@@ -327,7 +327,7 @@ export default function Artworks() {
       size: "10 inch X 10 inch",
       b: "my-[5px]",
       description:
-        "Night sky, black with the white stars. Acrilic hand-painting. 100% bleached cotton.",
+        "Night sky, black with the white stars. Acrylic hand-painting. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas3.webp",
@@ -338,7 +338,7 @@ export default function Artworks() {
       size: "10 inch X 10 inch",
       b: "my-[5px]",
       description:
-        "Colorful butterfly on the white background. Acrilic hand-painting. 100% bleached cotton.",
+        "Colorful butterfly on the white background. Acrylic hand-painting. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas6.webp",
@@ -348,7 +348,7 @@ export default function Artworks() {
       name: "Spring flowers",
       size: "8 inch X 10 inch",
       description:
-        "Colorful flowers. Acrilic hand-painting. Canvas papper. 100% bleached cotton.",
+        "Colorful flowers. Acrylic hand-painting. Canvas papper. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas7.webp",
@@ -399,12 +399,12 @@ export default function Artworks() {
     <>
       <Head>
         <title>
-          Online Art Gallery by Yana Krukovets. Artworks by Yana Krukovets.
+          Online Art Gallery by Yana Krukovets. Original hand painted Artworks.
           Ottawa, Ontario
         </title>
         <meta
           name="description"
-          content="Online Art Gallery by Yana Krukovets, Ottawa artist. Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art, folk art, Petrykivka folk art"
+          content="Online Art Gallery by Yana Krukovets, Ottawa artist. Original Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art, folk art, Petrykivka folk art"
         />
       </Head>
       {isMobile && (

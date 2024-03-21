@@ -13,7 +13,7 @@ export default function HomePage() {
       name: "Green Spring",
       size: "16 inch X 20 inch",
       description:
-        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrilic hand-painting 100% bleached cotton.",
+        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/cats1.webp",
@@ -33,7 +33,7 @@ export default function HomePage() {
       name: "Night view",
       size: "round, diameter - 4 inch",
       description:
-        "Black tree on the orange-black space background. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Original multicolored round acrylic painting on the wood. Black tree on the orange-black space background. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space8.webp",
@@ -43,7 +43,7 @@ export default function HomePage() {
       name: "Gray moon",
       size: "round, diameter - 4 inch",
       description:
-        "Gray moon. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Gray moon. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/canvas1.webp",
@@ -54,7 +54,7 @@ export default function HomePage() {
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       description:
-        "Three deers on the snow. Night view with big moon. Acrilic hand-painting. 100% bleached cotton.",
+        "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas2.webp",
@@ -65,7 +65,7 @@ export default function HomePage() {
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       description:
-        "Purple dots and purple rectangles on the green-yellow background. Abstract acrilic hand painting. 100% bleached cotton.",
+        "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand painting. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/petr7.webp",
@@ -75,7 +75,7 @@ export default function HomePage() {
       name: "Red flower",
       size: "round, diameter - 4 inch",
       description:
-        "Red flower with the green leaves on the black background. Petrykivka folk art. Acrilic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red flower with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr1.webp",
@@ -85,7 +85,7 @@ export default function HomePage() {
       name: "Red flowers",
       size: "round, diameter - 4 inch",
       description:
-        "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrilic hand painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrylic hand painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 
