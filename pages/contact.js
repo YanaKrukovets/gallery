@@ -87,7 +87,7 @@ export default function Contact() {
                     className=""
                     href="https://www.instagram.com/sunny_art87/"
                     target="_blank"
-                    aria-label="New tab"
+                    aria-label="link"
                   >
                     <Image
                       src="/images/icons/square-instagram.svg"
@@ -103,7 +103,7 @@ export default function Contact() {
                     className="underline ml-[10px]"
                     href="https://www.instagram.com/sunny_art87/"
                     target="_blank"
-                    aria-label="New tab"
+                    aria-label="link"
                   >
                     sunny_art87
                   </a>

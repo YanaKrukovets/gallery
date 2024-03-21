@@ -22,7 +22,7 @@ export default function Footer() {
                 className=""
                 href="https://www.instagram.com/sunny_art87/"
                 target="_blank"
-                aria-label="New tab"
+                aria-label="link"
               >
                 <Image
                   src="/images/icons/square-instagram.svg"
@@ -38,7 +38,7 @@ export default function Footer() {
                 className="ml-[10px] mt-[10px]"
                 href="https://www.instagram.com/sunny_art87/"
                 target="_blank"
-                aria-label="New tab"
+                aria-label="link"
               >
                 sunny_art87
               </a>
