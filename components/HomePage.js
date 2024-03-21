@@ -111,6 +111,7 @@ export default function HomePage() {
             role="link"
             className="border-b-[2px] border-green max-w-[350px] font-inka text-green"
             href="/artworks"
+            aria-label="link"
           >
             <i>here</i>
           </a>
