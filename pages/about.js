@@ -80,7 +80,7 @@ export default function About() {
                 in Ukraine and living in Ottawa, Ontario, Canada. As an artist,
                 I have always been captivated by the allure of the world around,
                 nature, fleeting moments and the play of light. I am creating
-                the things that I like in diffent styles.
+                things that I like in different styles.
               </p>
               <p className="mb-[15px]">
                 Welcome to my Online Gallery! Nice to see you here. I hope you
