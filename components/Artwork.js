@@ -75,6 +75,17 @@ export default function Artwork({ image }) {
                 {image.size}
               </p>
               <p className="text-gray text-[16px]">{image.description}</p>
+              {image.buy && (
+                <div className="mx-auto max-w-[55px] mt-[10px]">
+                  <a
+                    className="uppercase underline text-center text-green text-[24px]"
+                    href={image.buy}
+                    target="_blank"
+                  >
+                    <strong>Buy</strong>
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </div>
