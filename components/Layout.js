@@ -69,7 +69,7 @@ export default function Layout({ children }) {
         />
       </Head>
 
-      <main className={`verflow-x-hidden w-full`} id="main">
+      <main className={`verflow-x-hidden w-full text-black`} id="main">
         <a href="#main" className="skip-to-main-content-link">
           Skip to main content
         </a>
