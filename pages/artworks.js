@@ -398,10 +398,13 @@ export default function Artworks() {
   return (
     <>
       <Head>
-        <title>Online Art Gallery by Yana Krukovets. All artworks</title>
+        <title>
+          Online Art Gallery by Yana Krukovets. Artworks by Yana Krukovets.
+          Ottawa, Ontario
+        </title>
         <meta
           name="description"
-          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art, folk art, Petrykivka folk art"
+          content="Online Art Gallery by Yana Krukovets, Ottawa artist. Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art, folk art, Petrykivka folk art"
         />
       </Head>
       {isMobile && (

@@ -38,7 +38,7 @@ export default function Footer() {
                 className="ml-[10px] mt-[10px]"
                 href="https://www.instagram.com/sunny_art87/"
                 target="_blank"
-                aria-label="link"
+                aria-label="sunny_art87"
               >
                 sunny_art87
               </a>

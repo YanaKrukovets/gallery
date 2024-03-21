@@ -28,10 +28,12 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Online Art Gallery by Yana Krukovets. About the artist</title>
+        <title>
+          Online Art Gallery by Yana Krukovets. About the artist Yana Krukovets
+        </title>
         <meta
           name="description"
-          content="Online Art Gallery by Yana Krukovets. About the artist"
+          content="Online Art Gallery by Yana Krukovets. About the artist. Based in Ottawa, Canada"
         />
       </Head>
       {isMobile && (
@@ -75,8 +77,8 @@ export default function About() {
               <p className="mb-[15px]">
                 I want to share all that I can of my inner thoughts. I am a
                 mixed artist working in mostly acrylics and watercolor. Raised
-                in Ukraine and living in Canada, Ontario. As an artist, I have
-                always been captivated by the allure of the world around,
+                in Ukraine and living in Ottawa, Ontario, Canada. As an artist,
+                I have always been captivated by the allure of the world around,
                 nature, fleeting moments and the play of light. I am creating
                 the things that I like in my own style.
               </p>
