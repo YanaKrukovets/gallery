@@ -86,6 +86,7 @@ export default function Artworks() {
       height: 150,
       name: "Red flower",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93693",
       description:
         "Red flower with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
@@ -200,6 +201,7 @@ export default function Artworks() {
       height: 70,
       name: "Mars",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93693",
       description:
         "Original acrylic painting. Red Mars. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
