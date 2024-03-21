@@ -200,7 +200,7 @@ export default function Artworks() {
       name: "Mars",
       size: "round, diameter - 4 inch",
       description:
-        "Red Mars. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Original acrylic painting. Red Mars. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/space7.webp",

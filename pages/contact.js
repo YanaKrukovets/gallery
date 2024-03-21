@@ -65,7 +65,7 @@ export default function Contact() {
             <span className="md:hidden">Yana Krukovets.</span> Contact
             information
           </h1>
-          <div className="mt-[40px] sm:mt-[30px] max-w-[700px] mx-auto">
+          <div className="mt-[40px] sm:mt-[30px] max-w-[750px] mx-auto">
             <div className="flex justify-between">
               <div className="my-auto">
                 <div className="mb-[20px] flex">
@@ -108,6 +108,17 @@ export default function Contact() {
                     sunny_art87
                   </a>
                 </div>
+                <p className="mt-[20px] text-[24px] text-green pt-[10px] border-t-[2px] border-green">
+                  <strong>Where to buy my works?</strong>
+                </p>
+                <p className="text-[20px] mt-[10px]">
+                  Buy artworks{" "}
+                  <a href="https://www.gallea.ca/en/artists/yana-krukovets">
+                    <i className="text-green underline">
+                      <strong>here</strong>
+                    </i>
+                  </a>
+                </p>
               </div>
               {isMobile && (
                 <Image
