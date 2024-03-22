@@ -64,6 +64,11 @@ export default function Layout({ children }) {
           content="155e6479dee7fb2c5ff84b2e5da8957f"
         />
 
+        <meta
+          name="p:domain_verify"
+          content="b5004b976bb28d76591224d39f9edad0"
+        />
+
         <link
           rel="apple-touch-icon"
           sizes="57x57"
