@@ -59,6 +59,11 @@ export default function Layout({ children }) {
           content="https://yanakrukovets-artgallery.com/images/og-image.webp"
         />
 
+        <meta
+          name="p:domain_verify"
+          content="155e6479dee7fb2c5ff84b2e5da8957f"
+        />
+
         <link
           rel="apple-touch-icon"
           sizes="57x57"
