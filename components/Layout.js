@@ -35,7 +35,7 @@ export default function Layout({ children }) {
           property="og:description"
           content="Acrylic, watercolor abstract space nature artworks."
         />
-        <meta property="og:image" content="../images/og-image.png" />
+        <meta property="og:image" content="/images/og-image.webp" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta

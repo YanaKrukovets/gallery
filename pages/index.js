@@ -8,7 +8,7 @@ export default function Home(props) {
         <title>Online Art Gallery by Yana Krukovets. Ottawa, Canada</title>
         <meta
           name="description"
-          content="Online Art Gallery by Yana Krukovets. Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art. Artist based in Ottawa, Canada"
+          content="Online Art Gallery by Yana Krukovets, Ottawa artist. Original Acrylic, watercolor hand painted artworks. Abstract space nature wall art, mini art, folk art, Petrykivka folk art"
         />
       </Head>
       <HomePage />
