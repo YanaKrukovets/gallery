@@ -71,21 +71,33 @@ export default function Artwork({ image }) {
               <h2 className="text-[22px] font-anek font-[600] text-center leading-[24px] mt-[5px]">
                 {image.name}
               </h2>
-              <p className="border-green border-b-[2px] border-t-[2px] py-[5px] my-[10px] text-center">
-                {image.size}
-              </p>
-              <p className="text-gray text-[16px]">{image.description}</p>
-              {image.buy && (
-                <div className="mx-auto max-w-[55px] mt-[10px]">
-                  <a
-                    className="uppercase underline text-center text-green text-[24px]"
-                    href={image.buy}
-                    target="_blank"
+              <div
+                className={`border-green border-b-[2px] border-t-[2px] py-[5px] my-[10px] ${
+                  image.buy
+                    ? "flex justify-around sm:flex-wrap py-[7px]"
+                    : "mx-auto text-center"
+                }`}
+              >
+                <p className="text-center flex items-center justify-center">
+                  {image.size}
+                </p>
+                {image.buy && (
+                  <div
+                    className={`w-[90px] bg-[#2A5A51] hover:bg-[#2F655B] py-[7px] text-center ${
+                      image.buy ? "sm:mt-[5px]" : ""
+                    }`}
                   >
-                    <strong>Buy</strong>
-                  </a>
-                </div>
-              )}
+                    <a
+                      className="uppercase text-center text-white text-[24px] sm:text-[22px]"
+                      href={image.buy}
+                      target="_blank"
+                    >
+                      <strong>Buy</strong>
+                    </a>
+                  </div>
+                )}
+              </div>
+              <p className="text-gray text-[16px]">{image.description}</p>
             </div>
           </div>
         </div>
