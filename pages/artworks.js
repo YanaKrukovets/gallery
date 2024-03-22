@@ -13,6 +13,7 @@ export default function Artworks() {
       height: 150,
       name: "Purple and white cats in love",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93723",
       description:
         "Purple and white cats on the black background with silver sparkles and purple hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
     },
@@ -360,8 +361,9 @@ export default function Artworks() {
       height: 70,
       name: "Paris",
       size: "8 inch X 10 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93724",
       description:
-        "Gold Eiffel Tower with the night background. Canvas papper. 100% bleached cotton.",
+        "Original acrylic painting. Gold Eiffel Tower with the night background. Canvas paper. 100% bleached cotton.",
     },
   ];
 
