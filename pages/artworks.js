@@ -341,6 +341,7 @@ export default function Artworks() {
       name: "Butterfly",
       size: "10 inch X 10 inch",
       b: "my-[5px]",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93729",
       description:
         "Colorful butterfly on the white background. Acrylic hand-painting. 100% bleached cotton.",
     },
