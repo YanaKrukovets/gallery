@@ -287,7 +287,7 @@ export default function Artworks() {
       name: "Green Spring",
       size: "16 inch X 20 inch",
       description:
-        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton.",
+        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas1.webp",
@@ -298,7 +298,7 @@ export default function Artworks() {
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       description:
-        "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton.",
+        "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas2.webp",
@@ -309,7 +309,7 @@ export default function Artworks() {
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       description:
-        "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand-painting. 100% bleached cotton.",
+        "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas5.webp",
@@ -320,7 +320,7 @@ export default function Artworks() {
       size: "16 inch X 20 inch",
       b: "my-[15px]",
       description:
-        "An orange abstract. Abstract acrylic hand-painting. 100% bleached cotton.",
+        "An orange abstract. Abstract acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas4.webp",
@@ -331,7 +331,7 @@ export default function Artworks() {
       size: "10 inch X 10 inch",
       b: "my-[5px]",
       description:
-        "Night sky, black with the white stars. Acrylic hand-painting. 100% bleached cotton.",
+        "Night sky, black with the white stars. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas3.webp",
@@ -343,7 +343,7 @@ export default function Artworks() {
       b: "my-[5px]",
       buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93729",
       description:
-        "Colorful butterfly on the white background. Acrylic hand-painting. 100% bleached cotton.",
+        "Colorful butterfly on the white background. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas6.webp",

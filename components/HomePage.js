@@ -13,7 +13,7 @@ export default function HomePage() {
       name: "Green Spring",
       size: "16 inch X 20 inch",
       description:
-        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton.",
+        "Original acrylic painting. Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/cats1.webp",
@@ -55,7 +55,7 @@ export default function HomePage() {
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       description:
-        "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton.",
+        "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas2.webp",
@@ -63,10 +63,11 @@ export default function HomePage() {
       width: 150,
       height: 145,
       name: "Purple road",
-      size: "16 inch X 12 inch",
+      size: "12 inch X 16 inch",
       b: "my-[15px]",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93723",
       description:
-        "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand painting. 100% bleached cotton.",
+        "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/petr7.webp",
@@ -75,6 +76,7 @@ export default function HomePage() {
       height: 145,
       name: "Red flower",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93693",
       description:
         "Red flower with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
