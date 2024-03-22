@@ -351,8 +351,9 @@ export default function Artworks() {
       height: 70,
       name: "Spring flowers",
       size: "8 inch X 10 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93728",
       description:
-        "Colorful flowers. Acrylic hand-painting. Canvas papper. 100% bleached cotton.",
+        "Original acrylic painting. Colorful flowers. Acrylic hand-painting. Canvas paper. 100% bleached cotton.",
     },
     {
       src: "/images/components/artworks/canvas7.webp",
