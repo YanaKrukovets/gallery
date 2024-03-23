@@ -308,6 +308,7 @@ export default function Artworks() {
       name: "Purple road",
       size: "16 inch X 12 inch",
       b: "my-[15px]",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93737",
       description:
         "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
