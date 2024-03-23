@@ -99,6 +99,7 @@ export default function Artworks() {
       height: 70,
       name: "Bright Red flowers",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93739",
       description:
         "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
