@@ -106,8 +106,8 @@ export default function HomePage() {
           })}
         </div>
         <p className="text-[20px]">
-          Welcome to <i>Online Art Gallery</i> by Yana Krukovets. Nice to see
-          you here. I hope you will find something what you like!
+          Welcome to <i>Online Art Gallery</i> by Yana Krukovets, Ottawa artist.
+          Nice to see you here. I hope you will find something what you like!
         </p>
         <p className="text-[20px]">
           More artworks you can find{" "}
