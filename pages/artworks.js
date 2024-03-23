@@ -24,6 +24,7 @@ export default function Artworks() {
       height: 70,
       name: "Pink and white cats in love",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93738",
       description:
         "Pink and white cats on the black background with pink sparkles and pink hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
     },
