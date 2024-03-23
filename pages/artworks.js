@@ -35,8 +35,9 @@ export default function Artworks() {
       height: 70,
       name: "Lovely Valentines pink and white cats",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93748",
       description:
-        "Pink and white cats on the black background with yellow and silver sparkles and pink hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
+        "Original acrylic painting. Pink and white cats on the black background with yellow and silver sparkles and pink hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/cats4.webp",
@@ -108,10 +109,11 @@ export default function Artworks() {
       alt: "Petrykivka folk art. Blue and white flowers with the green leaves on the black background",
       width: 150,
       height: 70,
-      name: "Blue flowers",
+      name: "Blue Flowers",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93749",
       description:
-        "Blue and white flowers with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Blue and white flowers with the green leaves on the black background. Petrykivka folk art, Ukrainian folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
       src: "/images/components/artworks/petr8.webp",
@@ -263,8 +265,9 @@ export default function Artworks() {
       alt: "Black tree on the black space background with purple northern lights",
       width: 150,
       height: 70,
-      name: "Night tree",
+      name: "Night Tree",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93750",
       description:
         "Black tree on the orange-black space background with purple northern lights. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
