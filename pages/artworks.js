@@ -255,8 +255,9 @@ export default function Artworks() {
       alt: "Black trees on the black space background with purple northern lights",
       width: 150,
       height: 70,
-      name: "Trees at night",
+      name: "Trees at Night",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93751",
       description:
         "Black trees on the orange-black space background with purple northern lights. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
