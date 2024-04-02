@@ -46,6 +46,7 @@ export default function Artworks() {
       height: 70,
       name: "Pink and purple cats in love",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/94037",
       description:
         "Pink and purple cats on the black background with purple and pink sparkles and purple hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
     },
@@ -120,8 +121,9 @@ export default function Artworks() {
       alt: "Petrykivka folk art. Red rooster with red flowers",
       width: 150,
       height: 70,
-      name: "Red rooster",
+      name: "Red Rooster",
       size: "round, diameter - 4 inch",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/94041",
       description:
         "Red rooster with red flowers and green leaves on the purple background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
@@ -337,6 +339,7 @@ export default function Artworks() {
       name: "Night sky",
       size: "10 inch X 10 inch",
       b: "my-[5px]",
+      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/94038",
       description:
         "Night sky, black with the white stars. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
