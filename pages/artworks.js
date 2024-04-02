@@ -33,7 +33,7 @@ export default function Artworks() {
       alt: "Lovely Valentines pink and white cats",
       width: 150,
       height: 70,
-      name: "Lovely Valentines pink and white cats",
+      name: "Lovely pink and white cats",
       size: "round, diameter - 4 inch",
       buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93748",
       description:
@@ -41,7 +41,7 @@ export default function Artworks() {
     },
     {
       src: "/images/components/artworks/cats4.webp",
-      alt: "Lovely Valentines pink and white cats",
+      alt: "Pink and purple cats in love",
       width: 150,
       height: 70,
       name: "Pink and purple cats in love",
