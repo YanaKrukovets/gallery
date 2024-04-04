@@ -6,6 +6,16 @@ import HomeBannerNew from "./HomeBannerNew";
 export default function HomePage() {
   const images = [
     {
+      src: "/images/components/artworks/canvas9.webp",
+      alt: "Pink lily on the river",
+      width: 140,
+      height: 60,
+      name: "Sound of water",
+      size: "12 inch X 16 inch",
+      description:
+        "Original acrylic painting. Bright big pink  water lily flowers and tree. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/canvas8.webp",
       alt: "Red flowers on the green background",
       width: 140,
@@ -80,16 +90,6 @@ export default function HomePage() {
       buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93693",
       description:
         "Red flower with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
-    },
-    {
-      src: "/images/components/artworks/petr1.webp",
-      alt: "Petrykivka folk art. Red flowers with the green leaves on the black background",
-      width: 150,
-      height: 145,
-      name: "Red flowers",
-      size: "round, diameter - 4 inch",
-      description:
-        "Red flowers with the green leaves on the black background. Petrykivka folk art. Acrylic hand painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 

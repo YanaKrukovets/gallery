@@ -288,6 +288,16 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas9.webp",
+      alt: "Pink lily on the river",
+      width: 140,
+      height: 60,
+      name: "Sound of water",
+      size: "12 inch X 16 inch",
+      description:
+        "Original acrylic painting. Bright big pink  water lily flowers and tree. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/canvas8.webp",
       alt: "Red flowers on the green background",
       width: 150,
