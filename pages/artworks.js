@@ -172,6 +172,17 @@ export default function Artworks() {
 
   const space = [
     {
+      src: "/images/components/artworks/space12.webp",
+      alt: "Black tree on the black space background with purple northern lights",
+      width: 150,
+      height: 70,
+      name: "Night Tree",
+      size: "5 inch X 5 inch",
+
+      description:
+        "Black tree on the orange-black space background. Original mini wall art. Acrylic hand-painting, wooden, epoxy resin coated. Framed in square wooden shadow box.",
+    },
+    {
       src: "/images/components/artworks/space6.webp",
       alt: "Black tree on the black space background with orange lights",
       width: 150,
@@ -269,7 +280,7 @@ export default function Artworks() {
       alt: "Black tree on the black space background with purple northern lights",
       width: 150,
       height: 70,
-      name: "Night Tree",
+      name: "Night North Tree",
       size: "round, diameter - 4 inch",
       buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93750",
       description:

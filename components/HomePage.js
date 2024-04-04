@@ -6,6 +6,17 @@ import HomeBannerNew from "./HomeBannerNew";
 export default function HomePage() {
   const images = [
     {
+      src: "/images/components/artworks/space12.webp",
+      alt: "Black tree on the black space background with purple northern lights",
+      width: 150,
+      height: 70,
+      name: "Night Tree",
+      size: "5 inch X 5 inch",
+
+      description:
+        "Black tree on the orange-black space background. Original mini wall art. Acrylic hand-painting, wooden, epoxy resin coated. Framed in square wooden shadow box.",
+    },
+    {
       src: "/images/components/artworks/petr6.webp",
       alt: "Petrykivka folk art. Red rooster with red flowers",
       width: 150,
@@ -78,18 +89,6 @@ export default function HomePage() {
       b: "my-[15px]",
       description:
         "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
-    },
-    {
-      src: "/images/components/artworks/canvas2.webp",
-      alt: "Purple dots and purple rectangles on the green-yellow background",
-      width: 150,
-      height: 145,
-      name: "Purple road",
-      size: "12 inch X 16 inch",
-      b: "my-[15px]",
-      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93737",
-      description:
-        "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
   ];
 
