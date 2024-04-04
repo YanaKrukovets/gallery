@@ -84,6 +84,17 @@ export default function Artworks() {
 
   const petr = [
     {
+      src: "/images/components/artworks/petr6.webp",
+      alt: "Petrykivka folk art. Red rooster with red flowers",
+      width: 150,
+      height: 70,
+      name: "Rooster",
+      size: "6 inch X 5 inch",
+      b: "my-[15px]",
+      description:
+        "Beautiful Red rooster with red flowers and green leaves on the black background. Petrykivka folk art. Mini wall art. Acrylic hand-painting, wooden, epoxy resin coated. Framed in hexagon wooden shadow box.",
+    },
+    {
       src: "/images/components/artworks/petr7.webp",
       alt: "Petrykivka folk art. Red flower with the green leaves on the black background",
       width: 150,
@@ -156,16 +167,6 @@ export default function Artworks() {
       size: "rectangle, 4 inch",
       description:
         "Red rooster with bright red flowers and green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
-    },
-    {
-      src: "/images/components/artworks/petr6.webp",
-      alt: "Petrykivka folk art. Red rooster with red flowers",
-      width: 150,
-      height: 70,
-      name: "Rooster",
-      size: "round, diameter - 4 inch",
-      description:
-        "Beautiful Red rooster with red flowers and green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 

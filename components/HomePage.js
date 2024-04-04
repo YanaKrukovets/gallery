@@ -6,6 +6,17 @@ import HomeBannerNew from "./HomeBannerNew";
 export default function HomePage() {
   const images = [
     {
+      src: "/images/components/artworks/petr6.webp",
+      alt: "Petrykivka folk art. Red rooster with red flowers",
+      width: 150,
+      height: 70,
+      name: "Rooster",
+      size: "6 inch X 5 inch",
+      b: "my-[15px]",
+      description:
+        "Beautiful Red rooster with red flowers and green leaves on the black background. Petrykivka folk art. Mini wall art. Acrylic hand-painting, wooden, epoxy resin coated. Framed in hexagon wooden shadow box.",
+    },
+    {
       src: "/images/components/artworks/canvas9.webp",
       alt: "Pink lily on the river",
       width: 140,
@@ -79,17 +90,6 @@ export default function HomePage() {
       buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93737",
       description:
         "Purple dots and purple rectangles on the green-yellow background. Abstract acrylic hand painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
-    },
-    {
-      src: "/images/components/artworks/petr7.webp",
-      alt: "Petrykivka folk art. Red flower with the green leaves on the black background",
-      width: 150,
-      height: 145,
-      name: "Red flower",
-      size: "round, diameter - 4 inch",
-      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93693",
-      description:
-        "Red flower with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
   ];
 
