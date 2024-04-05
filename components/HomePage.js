@@ -43,10 +43,10 @@ export default function HomePage() {
       alt: "Pink lily on the river",
       width: 140,
       height: 60,
-      name: "Sound of water",
+      name: "Sound of Water",
       size: "12 inch X 16 inch",
       description:
-        "Original acrylic painting. Bright big pink  water lily flowers and tree. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic painting. Bright big pink  water lily flowers and tree. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas8.webp",
@@ -56,7 +56,7 @@ export default function HomePage() {
       name: "Green Spring",
       size: "16 inch X 20 inch",
       description:
-        "Original acrylic painting. Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic painting. Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/cats1.webp",
@@ -81,14 +81,14 @@ export default function HomePage() {
         "Original multicolored round acrylic painting on the wood. Black tree on the orange-black space background. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
-      src: "/images/components/artworks/space8.webp",
-      alt: "Gray moon",
+      src: "/images/components/artworks/space13.webp",
+      alt: "Gray Moon",
       width: 150,
-      height: 145,
-      name: "Gray Moon",
-      size: "round, diameter - 4 inch",
+      height: 70,
+      name: "Moon",
+      size: "hexagon, 6 X 5 inch",
       description:
-        "Gray moon. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Gray moon. Original acrylic mini art. Hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
     },
   ];
 

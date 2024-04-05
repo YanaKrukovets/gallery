@@ -35,7 +35,7 @@ export default function Artwork({ image }) {
             className={`mx-auto object-cover ${image.b ? image.b : ""}`}
           />
 
-          <h2 className="text-[22px] font-anek font-[600] max-w-[170px] text-center leading-[24px] mt-[5px]">
+          <h2 className="text-[22px] font-anek font-[600] max-w-[190px] text-center leading-[24px] mt-[5px]">
             {image.name}
           </h2>
           <p className="border-green border-b-[1px] border-t-[1px] py-[3px] my-[10px]">

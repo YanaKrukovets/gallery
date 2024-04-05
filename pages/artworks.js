@@ -159,18 +159,48 @@ export default function Artworks() {
         "Blue flower with the green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
     {
-      src: "/images/components/artworks/petr5.webp",
+      src: "/images/components/artworks/petr9.webp",
       alt: "Petrykivka folk art. Red rooster with red flowers",
-      width: 150,
-      height: 70,
-      name: "Petrykivka Red rooster",
-      size: "rectangle, 4 inch",
+      width: 130,
+      height: 50,
+      name: "Petrykivka Rooster",
+      size: "rectangle, 5 X 5 inch",
       description:
-        "Red rooster with bright red flowers and green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
+        "Red rooster with bright red flowers and green leaves on the black background. Petrykivka folk art. Acrylic hand-painting, wooden, epoxy resin coated.  Framed in the square wooden shadow box.",
     },
   ];
 
   const space = [
+    {
+      src: "/images/components/artworks/space15.webp",
+      alt: "Tree and North lights on the black space background with orange lights",
+      width: 150,
+      height: 70,
+      name: "North Night",
+      size: "hexagon, 6 X 5 inch",
+      description:
+        "Tree and North lights. Acrylic hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
+    },
+    {
+      src: "/images/components/artworks/space14.webp",
+      alt: "Mountains on the black space background with orange lights",
+      width: 150,
+      height: 70,
+      name: "North Mountains",
+      size: "hexagon, 6 X 5 inch",
+      description:
+        "Night North mountains on the purple-black space background. Acrylic hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
+    },
+    {
+      src: "/images/components/artworks/space13.webp",
+      alt: "Gray Moon",
+      width: 150,
+      height: 70,
+      name: "Moon",
+      size: "hexagon, 6 X 5 inch",
+      description:
+        "Gray moon. Original acrylic mini art. Hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
+    },
     {
       src: "/images/components/artworks/space12.webp",
       alt: "Black tree on the black space background with purple northern lights",
@@ -180,7 +210,7 @@ export default function Artworks() {
       size: "5 inch X 5 inch",
 
       description:
-        "Black tree on the orange-black space background. Original mini wall art. Acrylic hand-painting, wooden, epoxy resin coated. Framed in square wooden shadow box.",
+        "Black tree on the orange-black space background. Original mini wall art. Acrylic hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
     },
     {
       src: "/images/components/artworks/space6.webp",
@@ -315,10 +345,10 @@ export default function Artworks() {
       alt: "Pink lily on the river",
       width: 140,
       height: 60,
-      name: "Sound of water",
+      name: "Sound of Water",
       size: "12 inch X 16 inch",
       description:
-        "Original acrylic painting. Bright big pink  water lily flowers and tree. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic painting. Bright big pink  water lily flowers and tree. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas8.webp",
@@ -328,7 +358,7 @@ export default function Artworks() {
       name: "Green Spring",
       size: "16 inch X 20 inch",
       description:
-        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+        "Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas1.webp",
