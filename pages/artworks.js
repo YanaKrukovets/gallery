@@ -110,7 +110,7 @@ export default function Artworks() {
       alt: "Petrykivka folk art. Red flowers with the green leaves on the black background",
       width: 150,
       height: 70,
-      name: "Bright Red flowers",
+      name: "Bright Red Flowers",
       size: "round, diameter - 4 inch",
       buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93739",
       description:
@@ -195,10 +195,10 @@ export default function Artworks() {
     },
     {
       src: "/images/components/artworks/space8.webp",
-      alt: "Gray moon",
+      alt: "Gray Moon",
       width: 150,
       height: 70,
-      name: "Gray moon",
+      name: "Gray Moon",
       size: "round, diameter - 4 inch",
       description:
         "Gray moon. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
@@ -229,7 +229,7 @@ export default function Artworks() {
       alt: "Mountains on the black space background with orange lights",
       width: 150,
       height: 70,
-      name: "Night mountains",
+      name: "Night Mountains",
       size: "round, diameter - 4 inch",
       description:
         "Night mountains on the purple-black space background. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
@@ -239,7 +239,7 @@ export default function Artworks() {
       alt: "Black tree on the space background with the bright purple and orange stars",
       width: 150,
       height: 70,
-      name: "Purple night",
+      name: "Purple Night",
       size: "round, diameter - 4 inch",
       description:
         "Black tree on the black space background with the bright purple and orange stars. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
@@ -300,6 +300,17 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas10.webp",
+      alt: "Magic blue Sky, yellow field and mountains",
+      width: 150,
+      height: 70,
+      name: "Magic Sky",
+      size: "12 inch X 9 inch",
+      b: "my-[20px]",
+      description:
+        "Original acrylic painting. Magic blue sky, bright yellow field and mountains. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/canvas9.webp",
       alt: "Pink lily on the river",
       width: 140,
@@ -331,11 +342,22 @@ export default function Artworks() {
         "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
+      src: "/images/components/artworks/canvas11.webp",
+      alt: "Sunrise near the see",
+      width: 150,
+      height: 70,
+      name: "Sunrise",
+      size: "16 inch X 12 inch",
+      b: "my-[10px]",
+      description:
+        "Original acrylic painting. Bright sunrise on the sea. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/canvas2.webp",
       alt: "Purple dots and purple rectangles on the green-yellow background",
       width: 150,
       height: 70,
-      name: "Purple road",
+      name: "Purple Road",
       size: "16 inch X 12 inch",
       b: "my-[15px]",
       buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93737",
@@ -347,8 +369,8 @@ export default function Artworks() {
       alt: "An orange abstract",
       width: 150,
       height: 70,
-      name: "An orange day",
-      size: "16 inch X 20 inch",
+      name: "An Orange Day",
+      size: "20 inch X 16 inch",
       b: "my-[15px]",
       description:
         "An orange abstract. Abstract acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",

@@ -6,6 +6,17 @@ import HomeBannerNew from "./HomeBannerNew";
 export default function HomePage() {
   const images = [
     {
+      src: "/images/components/artworks/canvas10.webp",
+      alt: "Magic blue Sky, yellow field and mountains",
+      width: 150,
+      height: 70,
+      name: "Magic Sky",
+      size: "12 inch X 9 inch",
+      b: "my-[20px]",
+      description:
+        "Original acrylic painting. Magic blue sky, bright yellow field and mountains. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/space12.webp",
       alt: "Black tree on the black space background with purple northern lights",
       width: 150,
@@ -74,21 +85,10 @@ export default function HomePage() {
       alt: "Gray moon",
       width: 150,
       height: 145,
-      name: "Gray moon",
+      name: "Gray Moon",
       size: "round, diameter - 4 inch",
       description:
         "Gray moon. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
-    },
-    {
-      src: "/images/components/artworks/canvas1.webp",
-      alt: "Three deers on the snow. Night view with big moon",
-      width: 150,
-      height: 145,
-      name: "Three deers",
-      size: "16 inch X 12 inch",
-      b: "my-[15px]",
-      description:
-        "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
   ];
 
