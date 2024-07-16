@@ -5,6 +5,18 @@ import Artwork from "../components/Artwork";
 import Head from "next/head";
 
 export default function Artworks() {
+  const sunflowers = [
+    {
+      src: "/images/components/artworks/sunflower1.webp",
+      alt: "Image comming soon......",
+      width: 150,
+      height: 150,
+      name: "Sunflower field",
+      size: "hexagon, 6inch X 6inch",
+      description:
+        "Lovely yellow sunflower field. Hand-painted, wooden, coated with water-based finish in the wooden hexagon shadow box.",
+    },
+  ];
   const images1 = [
     {
       src: "/images/components/artworks/cats1.webp",
@@ -461,6 +473,7 @@ export default function Artworks() {
   const [active3, setActive3] = useState(false);
   const [active4, setActive4] = useState(false);
   const [active5, setActive5] = useState(false);
+  const [active6, setActive6] = useState(false);
 
   const [mobileExpanded, setMobileExpanded] = useState(false);
 
@@ -552,6 +565,7 @@ export default function Artworks() {
                       setActive3(false);
                       setActive4(false);
                       setActive5(false);
+                      setActive6(false);
                       setMobileExpanded(!mobileExpanded);
                     }}
                     href="#all"
@@ -572,6 +586,7 @@ export default function Artworks() {
                       setActive3(false);
                       setActive4(false);
                       setActive5(false);
+                      setActive6(false);
                       setMobileExpanded(!mobileExpanded);
                     }}
                     href="#space"
@@ -579,7 +594,7 @@ export default function Artworks() {
                       active2 ? "bg-lightGray" : ""
                     }`}
                   >
-                    <strong>Space</strong>, wooden, round
+                    <strong>Mini artwork</strong> Space
                   </a>
                   <a
                     role="button"
@@ -590,6 +605,7 @@ export default function Artworks() {
                       setActive3(true);
                       setActive4(false);
                       setActive5(false);
+                      setActive6(false);
                       setMobileExpanded(!mobileExpanded);
                     }}
                     href="#petrykivka"
@@ -597,7 +613,26 @@ export default function Artworks() {
                       active3 ? "bg-lightGray" : ""
                     }`}
                   >
-                    <strong>Petrykivka folk art</strong>, wooden
+                    <strong>Mini artwork</strong> Petrykivka folk art
+                  </a>
+                  <a
+                    role="button"
+                    onClick={() => {
+                      setImages(sunflowers);
+                      setActive1(false);
+                      setActive2(false);
+                      setActive3(false);
+                      setActive4(false);
+                      setActive5(false);
+                      setActive6(true);
+                      setMobileExpanded(!mobileExpanded);
+                    }}
+                    href="#sunflowers"
+                    className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
+                      active6 ? "bg-lightGray" : ""
+                    }`}
+                  >
+                    <strong>Mini artwork</strong> Sunflowers
                   </a>
                   <a
                     role="button"
@@ -608,6 +643,7 @@ export default function Artworks() {
                       setActive3(false);
                       setActive4(true);
                       setActive5(false);
+                      setActive6(false);
                       setMobileExpanded(!mobileExpanded);
                     }}
                     href="#cats"
@@ -615,8 +651,9 @@ export default function Artworks() {
                       active4 ? "bg-lightGray" : ""
                     }`}
                   >
-                    <strong>Cats</strong>, wooden, round
+                    <strong>Mini artwork</strong> Cats
                   </a>
+
                   <a
                     role="button"
                     onClick={() => {
