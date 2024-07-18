@@ -422,6 +422,27 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas13.webp",
+      alt: "Pink sakura blossom",
+      width: 140,
+      height: 60,
+      name: "Sakura",
+      size: "12 inch X 16 inch",
+      description:
+        "Original acrylic painting. Pink sakura blossom. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas12.webp",
+      alt: "Orange sunset at the field",
+      width: 150,
+      height: 70,
+      name: "Summer Sunset",
+      size: "11 inch X 9 inch",
+      b: "my-[20px]",
+      description:
+        "Original acrylic painting. Orange sunset at the field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/canvas10.webp",
       alt: "Magic blue Sky, yellow field and mountains",
       width: 150,

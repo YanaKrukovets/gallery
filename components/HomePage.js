@@ -16,15 +16,14 @@ export default function HomePage() {
         "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
     {
-      src: "/images/components/artworks/canvas10.webp",
-      alt: "Magic blue Sky, yellow field and mountains",
-      width: 150,
-      height: 70,
-      name: "Magic Sky",
-      size: "12 inch X 9 inch",
-      b: "my-[20px]",
+      src: "/images/components/artworks/canvas13.webp",
+      alt: "Pink sakura blossom",
+      width: 140,
+      height: 60,
+      name: "Sakura",
+      size: "12 inch X 16 inch",
       description:
-        "Original acrylic painting. Magic blue sky, bright yellow field and mountains. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic painting. Pink sakura blossom. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/space12.webp",
