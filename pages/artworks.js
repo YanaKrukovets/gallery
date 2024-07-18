@@ -12,7 +12,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Sunflower field",
-      size: "hexagon, 6inch X 6inch",
+      size: "hexagon, 6 inch X 6 inch",
       description:
         "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -22,7 +22,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Sunflowers",
-      size: "hexagon, 6inch X 6inch",
+      size: "hexagon, 6 inch X 6 inch",
       description:
         "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -32,7 +32,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Beautiful Sunflowers",
-      size: "hexagon, 6inch X 6inch",
+      size: "hexagon, 6 inch X 6 inch",
       description:
         "Beautiful yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -42,7 +42,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Sunflowers",
-      size: "hexagon, 6inch X 6inch",
+      size: "hexagon, 6 inch X 6 inch",
       description:
         "Beautiful yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -52,9 +52,49 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Sunflowers",
-      size: "hexagon, 6inch X 6inch",
+      size: "hexagon, 6 inch X 6 inch",
       description:
         "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
+      src: "/images/components/artworks/flowers2.webp",
+      alt: "red spring flowers",
+      width: 150,
+      height: 150,
+      name: "Spring flowers",
+      size: "hexagon, 6 inch X 6 inch",
+      description:
+        "Lovely red spring flowers. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
+      src: "/images/components/artworks/flowers3.webp",
+      alt: "red spring flowers",
+      width: 150,
+      height: 150,
+      name: "Flowers field",
+      size: "hexagon, 6 inch X 6 inch",
+      description:
+        "Beautiful field with red spring flowers. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
+      src: "/images/components/artworks/flowers1.webp",
+      alt: "white spring flowers",
+      width: 150,
+      height: 150,
+      name: "White flowers",
+      size: "hexagon, 6 inch X 6 inch",
+      description:
+        "Lovely white spring flowers. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
+      src: "/images/components/artworks/sakura.webp",
+      alt: "sakura blossom",
+      width: 150,
+      height: 150,
+      name: "Sakura blossom",
+      size: "hexagon, 6 inch X 6 inch",
+      description:
+        "Lovely pink sakura blossom. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
   ];
   const images1 = [

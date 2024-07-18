@@ -6,6 +6,16 @@ import HomeBannerNew from "./HomeBannerNew";
 export default function HomePage() {
   const images = [
     {
+      src: "/images/components/artworks/sunflower5.webp",
+      alt: "sunflowers",
+      width: 150,
+      height: 150,
+      name: "Sunflowers",
+      size: "hexagon, 6 inch X 6 inch",
+      description:
+        "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
       src: "/images/components/artworks/canvas10.webp",
       alt: "Magic blue Sky, yellow field and mountains",
       width: 150,
@@ -58,17 +68,7 @@ export default function HomePage() {
       description:
         "Original acrylic painting. Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
-    {
-      src: "/images/components/artworks/cats1.webp",
-      alt: "Lovely Valentines purple and white cats",
-      width: 150,
-      height: 145,
-      name: "Purple and white cats in love",
-      size: "round, diameter - 4 inch",
-      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93723",
-      description:
-        "Purple and white cats on the black background with silver sparkles and purple hearts. Hand-painted, wooden, coated with water-based finish. It can be used like a hot stand for cups or like a mini wall art",
-    },
+
     {
       src: "/images/components/artworks/space6.webp",
       alt: "Black tree on the black space background with orange lights",
