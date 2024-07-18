@@ -8,13 +8,53 @@ export default function Artworks() {
   const sunflowers = [
     {
       src: "/images/components/artworks/sunflower1.webp",
-      alt: "Image comming soon......",
+      alt: "sunflowers",
       width: 150,
       height: 150,
       name: "Sunflower field",
       size: "hexagon, 6inch X 6inch",
       description:
-        "Lovely yellow sunflower field. Hand-painted, wooden, coated with water-based finish in the wooden hexagon shadow box.",
+        "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
+      src: "/images/components/artworks/sunflower2.webp",
+      alt: "sunflowers",
+      width: 150,
+      height: 150,
+      name: "Sunflowers",
+      size: "hexagon, 6inch X 6inch",
+      description:
+        "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
+      src: "/images/components/artworks/sunflowers3.webp",
+      alt: "sunflowers",
+      width: 150,
+      height: 150,
+      name: "Beautiful Sunflowers",
+      size: "hexagon, 6inch X 6inch",
+      description:
+        "Beautiful yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
+      src: "/images/components/artworks/sunflower4.webp",
+      alt: "sunflowers",
+      width: 150,
+      height: 150,
+      name: "Sunflowers",
+      size: "hexagon, 6inch X 6inch",
+      description:
+        "Beautiful yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+    },
+    {
+      src: "/images/components/artworks/sunflower5.webp",
+      alt: "sunflowers",
+      width: 150,
+      height: 150,
+      name: "Sunflowers",
+      size: "hexagon, 6inch X 6inch",
+      description:
+        "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
   ];
   const images1 = [
@@ -465,7 +505,7 @@ export default function Artworks() {
     },
   ];
 
-  const allImages = [...space, ...canvas, ...petr, ...images1];
+  const allImages = [...sunflowers, ...space, ...canvas, ...petr, ...images1];
   const [images, setImages] = useState(allImages);
 
   const [active1, setActive1] = useState(true);
@@ -632,7 +672,7 @@ export default function Artworks() {
                       active6 ? "bg-lightGray" : ""
                     }`}
                   >
-                    <strong>Mini artwork</strong> Sunflowers
+                    <strong>Mini artwork</strong> Flowers
                   </a>
                   <a
                     role="button"
