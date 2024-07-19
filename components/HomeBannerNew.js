@@ -42,7 +42,7 @@ export default function HomeBannerNew() {
             }}
             loop={true}
             modules={[Navigation, EffectFade, Autoplay]}
-            /*autoplay={{ delay: 3000, disableOnInteraction: false }}*/
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
             slidesPerView={1}
             keyboard={{
               enabled: true,
