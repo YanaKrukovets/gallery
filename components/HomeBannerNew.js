@@ -60,7 +60,7 @@ export default function HomeBannerNew() {
                     height={550}
                     priority={true}
                     rel="preload"
-                    className="object-cover max-h-[550px] object-top"
+                    className="object-cover max-h-[550px] object-top mt-[20px]"
                   />
                 )}
                 {!isMobile && (
