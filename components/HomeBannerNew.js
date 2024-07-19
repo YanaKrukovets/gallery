@@ -42,13 +42,13 @@ export default function HomeBannerNew() {
             }}
             loop={true}
             modules={[Navigation, EffectFade, Autoplay]}
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            /*autoplay={{ delay: 3000, disableOnInteraction: false }}*/
             slidesPerView={1}
             keyboard={{
               enabled: true,
               onlyInViewport: true,
             }}
-            className="h-auto w-full md:max-h-[210px] xsm:max-h-[160px]"
+            className="h-auto w-full md:mt-[20px]"
           >
             <SwiperSlide>
               <div className="flex h-full w-full items-start justify-center">

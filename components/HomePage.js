@@ -1,9 +1,18 @@
 import React from "react";
 import Artwork from "../components/Artwork";
+import Image from "next/image";
 
 import HomeBannerNew from "./HomeBannerNew";
 
 export default function HomePage() {
+  const exhibitions = [
+    {
+      src: "/images/components/exhibitions/exhibitions1.webp",
+      alt: "exhibition",
+      width: 250,
+      height: 250,
+    },
+  ];
   const images = [
     {
       src: "/images/components/artworks/sunflower5.webp",
@@ -95,6 +104,24 @@ export default function HomePage() {
     <div className="bg-lightGray pb-[40px]">
       <HomeBannerNew />
       <div className="max-w-wrapper mx-auto px-5">
+        <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
+          Exhibitions
+        </h1>
+        <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
+          {exhibitions.map((image, index) => {
+            return (
+              <Image
+                src={image.src}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+                key={index}
+                priority={true}
+                className={`mx-auto object-cover`}
+              />
+            );
+          })}
+        </div>
         <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
           Most recent artworks
         </h1>

@@ -422,6 +422,26 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas15.webp",
+      alt: "Yellow sunflower field",
+      width: 140,
+      height: 60,
+      name: "Sunflowers",
+      size: "will be updated",
+      description:
+        "Original acrylic painting. Yellow sunflower field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas14.webp",
+      alt: "Pink tulips field",
+      width: 140,
+      height: 60,
+      name: "Tulips field",
+      size: "will be updated",
+      description:
+        "Original acrylic painting. Pink tulips field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/canvas13.webp",
       alt: "Pink sakura blossom",
       width: 140,
