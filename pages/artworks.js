@@ -422,22 +422,46 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas17.webp",
+      alt: "Pink tulips and white flowers",
+      width: 130,
+      height: 50,
+      name: "Spring flowers",
+      size: "will be updated",
+
+      description:
+        "Original acrylic painting. Spring flowers, pink tulips and white flowers. Paper. Acrylic hand-painting, framed, under glass",
+    },
+    {
+      src: "/images/components/artworks/canvas16.webp",
+      alt: "Magic light in the mountains",
+      width: 130,
+      height: 50,
+      name: "Space light",
+      size: "will be updated",
+
+      description:
+        "Original acrylic painting. Magic light in the mountains city. Paper. Acrylic hand-painting, framed, under glass",
+    },
+    {
       src: "/images/components/artworks/canvas15.webp",
       alt: "Yellow sunflower field",
-      width: 140,
-      height: 60,
+      width: 110,
+      height: 30,
       name: "Sunflowers",
       size: "will be updated",
+      b: "my-[20px]",
       description:
         "Original acrylic painting. Yellow sunflower field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas14.webp",
       alt: "Pink tulips field",
-      width: 140,
-      height: 60,
+      width: 110,
+      height: 30,
       name: "Tulips field",
       size: "will be updated",
+      b: "my-[20px]",
       description:
         "Original acrylic painting. Pink tulips field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
@@ -791,12 +815,12 @@ export default function Artworks() {
                       active5 ? "bg-lightGray" : ""
                     }`}
                   >
-                    <strong>Canvases</strong>
+                    <strong>Canvases, big wall art</strong>
                   </a>
                 </div>
               </div>
 
-              <div className="flex my-[30px] w-[75%] pr-[20px] md:pr-0 md:w-full flex-wrap h-[600px] overflow-scroll md:mx-auto">
+              <div className="flex mb-[30px] pt-[10px] w-[75%] pr-[20px] md:pr-0 md:w-full flex-wrap h-[600px] overflow-scroll md:mx-auto">
                 {images.map((image, index) => {
                   return <Artwork image={image} key={index} />;
                 })}
