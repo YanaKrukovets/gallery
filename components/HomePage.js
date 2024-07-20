@@ -7,6 +7,12 @@ import HomeBannerNew from "./HomeBannerNew";
 export default function HomePage() {
   const exhibitions = [
     {
+      src: "/images/components/exhibitions/exhibitions2.webp",
+      alt: "exhibition",
+      width: 250,
+      height: 250,
+    },
+    {
       src: "/images/components/exhibitions/exhibitions1.webp",
       alt: "exhibition",
       width: 250,
