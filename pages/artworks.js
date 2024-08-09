@@ -422,6 +422,39 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas23.webp",
+      alt: "ship with orange sunset",
+      width: 130,
+      height: 50,
+      name: "Sea",
+      size: "will be updated",
+
+      description:
+        "Original acrylic painting. Beautiful colorful sunset on the sea with ship. Paper. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas22.webp",
+      alt: "green field with houses",
+      width: 150,
+      height: 60,
+      name: "Village",
+      size: "will be updated",
+      b: "my-[20px]",
+      description:
+        "Original acrylic painting. Village in the green field. Paper. Acrylic hand-painting, framed under glass.",
+    },
+    {
+      src: "/images/components/artworks/canvas21.webp",
+      alt: "colorful flowers under the mountains",
+      width: 150,
+      height: 60,
+      name: "Flowers field",
+      size: "will be updated",
+      b: "my-[20px]",
+      description:
+        "Original acrylic painting. Beautiful colorful flowers field. Paper. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/canvas20.webp",
       alt: "colorful sunrise on the lake",
       width: 170,
@@ -432,6 +465,7 @@ export default function Artworks() {
       description:
         "Original acrylic painting. Beautiful colorful sunrise on the lake. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
+
     {
       src: "/images/components/artworks/canvas19.webp",
       alt: "Sunflowers",
