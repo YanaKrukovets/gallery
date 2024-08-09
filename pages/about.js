@@ -101,9 +101,20 @@ export default function About() {
                 <strong>Where to buy my works?</strong>
               </p>
               <p className="text-[20px] mt-[15px] font-inka">
-                Buy artworks{" "}
+                Buy original artworks{" "}
                 <a
                   href="https://www.gallea.ca/en/artists/yana-krukovets"
+                  target="_blank"
+                >
+                  <i className="text-green underline">
+                    <strong>here</strong>
+                  </i>
+                </a>
+              </p>
+              <p className="text-[20px] mt-[15px] font-inka">
+                Buy prints{" "}
+                <a
+                  href="https://www.redbubble.com/people/sunnykaramelart/shop"
                   target="_blank"
                 >
                   <i className="text-green underline">
