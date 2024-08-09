@@ -422,6 +422,39 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas20.webp",
+      alt: "colorful sunrise on the lake",
+      width: 170,
+      height: 80,
+      name: "Magic sunrise",
+      size: "will be updated",
+      b: "my-[20px]",
+      description:
+        "Original acrylic painting. Beautiful colorful sunrise on the lake. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas19.webp",
+      alt: "Sunflowers",
+      width: 130,
+      height: 50,
+      name: "Sunflower field",
+      size: "16inch X 20inch",
+      b: "my-[5px]",
+      description:
+        "Original acrylic painting. Beautiful yellow sunflower field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas18.webp",
+      alt: "Fall in the forest",
+      width: 130,
+      height: 50,
+      name: "On the river",
+      size: "will be updated",
+      b: "my-[20px]",
+      description:
+        "Original acrylic painting. On the river, fall in the forest. Paper. Acrylic hand-painting, framed, under glass",
+    },
+    {
       src: "/images/components/artworks/canvas17.webp",
       alt: "Pink tulips and white flowers",
       width: 130,
@@ -449,7 +482,7 @@ export default function Artworks() {
       width: 110,
       height: 30,
       name: "Sunflowers",
-      size: "will be updated",
+      size: "5inch X 7inch",
       b: "my-[20px]",
       description:
         "Original acrylic painting. Yellow sunflower field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
@@ -460,7 +493,7 @@ export default function Artworks() {
       width: 110,
       height: 30,
       name: "Tulips field",
-      size: "will be updated",
+      size: "5inch X 7inch",
       b: "my-[20px]",
       description:
         "Original acrylic painting. Pink tulips field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
@@ -574,29 +607,7 @@ export default function Artworks() {
       description:
         "Night sky, black with the white stars. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
-    {
-      src: "/images/components/artworks/canvas3.webp",
-      alt: "Colorful butterfly on the white background",
-      width: 150,
-      height: 70,
-      name: "Butterfly",
-      size: "10 inch X 10 inch",
-      b: "my-[5px]",
-      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93729",
-      description:
-        "Colorful butterfly on the white background. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
-    },
-    {
-      src: "/images/components/artworks/canvas6.webp",
-      alt: "Colorful spring flowers",
-      width: 150,
-      height: 70,
-      name: "Spring flowers",
-      size: "8 inch X 10 inch",
-      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93728",
-      description:
-        "Original acrylic painting. Colorful flowers. Acrylic hand-painting. Canvas paper. 100% bleached cotton.",
-    },
+
     {
       src: "/images/components/artworks/canvas7.webp",
       alt: "Gold Eiffel Tower with the night background",
