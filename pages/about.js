@@ -71,16 +71,29 @@ export default function About() {
               className="md:mx-auto md:max-w-[250px] sm:max-w-[200px] object-cover"
             />
             <div className="text-[20px] leading-[22px] ml-[30px] flex flex-col justify-center w-[65%] xmd:w-[55%] md:ml-0 md:w-[100%] md:mt-[30px]">
+              <p role="heading" aria-level="2">
+                "Every child is an artist. The problem is how to remain an
+                artist once we grow up."
+              </p>
               <p className="mb-[15px]" role="heading" aria-level="2">
-                Hello! My name is Yana and I am an artist.
+                – Pablo Picasso.
+              </p>
+
+              <p className="" role="heading" aria-level="2">
+                Hello! My name is Yana and I am an artist. I am self-taught
+                visual artist.
               </p>
               <p className="mb-[15px]">
-                I want to share all that I can of my inner thoughts. I am a
-                mixed artist working in mostly acrylics and watercolor. Raised
-                in Ukraine and living in Ottawa, Ontario, Canada. As an artist,
-                I have always been captivated by the allure of the world around,
-                nature, fleeting moments and the play of light. I am creating
-                things that I like in different styles.
+                Raised in Ukraine and living in Ottawa, Ontario, Canada.
+                Painting has been my passion since the very early age which I
+                persuaded throughout my life even though I had a professional
+                standing in Information technology. I work in mostly acrylics
+                and watercolor. My paintings depict my interpretation of the
+                nature and the world around me. I want to share all that I can
+                of my inner thoughts through my art. As an artist, I have always
+                been captivated by the allure of the world around, nature,
+                fleeting moments and the play of light. I am creating things
+                that I like in different styles.
               </p>
               <p className="mb-[15px]">
                 Welcome to my Online Gallery! Nice to see you here. I hope you
