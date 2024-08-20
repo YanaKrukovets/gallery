@@ -21,24 +21,26 @@ export default function HomePage() {
   ];
   const images = [
     {
-      src: "/images/components/artworks/sunflower5.webp",
-      alt: "sunflowers",
-      width: 150,
-      height: 150,
-      name: "Sunflowers",
-      size: "hexagon, 6 inch X 6 inch",
+      src: "/images/components/artworks/canvas24.webp",
+      alt: "Hoverla. Mountain in Ukraine",
+      width: 130,
+      height: 50,
+      name: "Hoverla",
+      size: "12 inch X 16 inch",
+      buy: "https://www.etsy.com/ca/listing/1766348300/hand-painted-acrylic-oil-picture-wall",
       description:
-        "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
+        "Original acrylic & oil painting. Beautiful colorful mountain Hoverla with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
-      src: "/images/components/artworks/canvas13.webp",
-      alt: "Pink sakura blossom",
-      width: 140,
-      height: 60,
-      name: "Sakura",
+      src: "/images/components/artworks/canvas25.webp",
+      alt: "Landscape",
+      width: 130,
+      height: 50,
+      name: "Orange dreams",
       size: "12 inch X 16 inch",
+      buy: "https://www.etsy.com/ca/listing/1766348300/hand-painted-acrylic-oil-picture-wall",
       description:
-        "Original acrylic painting. Pink sakura blossom. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic & oil painting. Beautiful colorful sunrise with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/space12.webp",
@@ -158,6 +160,15 @@ export default function HomePage() {
           Buy original artworks{" "}
           <a
             href="https://www.gallea.ca/en/artists/yana-krukovets"
+            target="_blank"
+          >
+            <i className="text-green underline">
+              <strong>here</strong>
+            </i>
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://www.etsy.com/ca/listing/1766348300/hand-painted-acrylic-oil-picture-wall"
             target="_blank"
           >
             <i className="text-green underline">

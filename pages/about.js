@@ -122,6 +122,15 @@ export default function About() {
                   <i className="text-green underline">
                     <strong>here</strong>
                   </i>
+                </a>{" "}
+                or{" "}
+                <a
+                  href="https://www.etsy.com/ca/listing/1766348300/hand-painted-acrylic-oil-picture-wall"
+                  target="_blank"
+                >
+                  <i className="text-green underline">
+                    <strong>here</strong>
+                  </i>
                 </a>
               </p>
               <p className="text-[20px] mt-[15px] font-inka">
