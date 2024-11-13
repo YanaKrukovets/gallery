@@ -422,15 +422,27 @@ export default function Artworks() {
 
   const canvas = [
     {
-      src: "/images/components/artworks/canvas26.webp",
-      alt: "Hoverla. Mountain in Ukraine",
+      src: "/images/components/artworks/canvas27.webp",
+      alt: "Snow. Van Gogh style",
       width: 130,
-      height: 50,
-      name: "Hoverla",
-      size: "12 inch X 16 inch",
-      buy: "https://www.etsy.com/ca/listing/1766348300/hand-painted-acrylic-oil-picture-wall",
+      height: 130,
+      b: "my-[10px]",
+      name: "Snow day",
+      size: "8 inch X 8 inch",
+
       description:
-        "Original acrylic & oil painting. Beautiful colorful mountain Hoverla with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic & oil painting. Beautiful colorful Nothern Lights and snowy mountain Hoverla. Wood panel. Acrylic & oil hand-painting. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas26.webp",
+      alt: "Road to home. Nothern lights",
+      width: 110,
+      height: 80,
+      name: "Road to home",
+      size: "8 inch X 10 inch",
+
+      description:
+        "Original acrylic & oil painting. Beautiful colorful Nothern Lights and snowy mountain Hoverla. Wood panel. Acrylic & oil hand-painting. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas24.webp",
@@ -454,6 +466,7 @@ export default function Artworks() {
       description:
         "Original acrylic & oil painting. Beautiful colorful sunrise with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
+
     {
       src: "/images/components/artworks/canvas23.webp",
       alt: "ship with orange sunset",
