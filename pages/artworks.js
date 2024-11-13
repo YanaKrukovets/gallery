@@ -422,6 +422,17 @@ export default function Artworks() {
 
   const canvas = [
     {
+      src: "/images/components/artworks/canvas26.webp",
+      alt: "Hoverla. Mountain in Ukraine",
+      width: 130,
+      height: 50,
+      name: "Hoverla",
+      size: "12 inch X 16 inch",
+      buy: "https://www.etsy.com/ca/listing/1766348300/hand-painted-acrylic-oil-picture-wall",
+      description:
+        "Original acrylic & oil painting. Beautiful colorful mountain Hoverla with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
       src: "/images/components/artworks/canvas24.webp",
       alt: "Hoverla. Mountain in Ukraine",
       width: 130,

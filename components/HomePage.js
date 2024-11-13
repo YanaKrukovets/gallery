@@ -5,7 +5,39 @@ import Image from "next/image";
 import HomeBannerNew from "./HomeBannerNew";
 
 export default function HomePage() {
-  const exhibitions = [
+  const exhibitionsCurr = [
+    {
+      src: "/images/components/exhibitions/exhibitions7.webp",
+      alt: "exhibition",
+      width: 390,
+      height: 150,
+    },
+    {
+      src: "/images/components/exhibitions/exhibitions6.webp",
+      alt: "exhibition",
+      width: 200,
+      height: 250,
+    },
+    {
+      src: "/images/components/exhibitions/exhibitions5.webp",
+      alt: "exhibition",
+      width: 250,
+      height: 250,
+    },
+    {
+      src: "/images/components/exhibitions/exhibitions4.webp",
+      alt: "exhibition",
+      width: 250,
+      height: 250,
+    },
+  ];
+  const exhibitionsPast = [
+    {
+      src: "/images/components/exhibitions/exhibitions3.webp",
+      alt: "exhibition Blackburn library",
+      width: 450,
+      height: 150,
+    },
     {
       src: "/images/components/exhibitions/exhibitions2.webp",
       alt: "exhibition",
@@ -113,10 +145,28 @@ export default function HomePage() {
       <HomeBannerNew />
       <div className="max-w-wrapper mx-auto px-5">
         <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
-          Exhibitions
+          Current Exhibitions
         </h1>
         <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
-          {exhibitions.map((image, index) => {
+          {exhibitionsCurr.map((image, index) => {
+            return (
+              <Image
+                src={image.src}
+                alt={image.alt}
+                width={image.width}
+                height={image.height}
+                key={index}
+                priority={true}
+                className={`mx-auto object-cover`}
+              />
+            );
+          })}
+        </div>
+        <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
+          Past Exhibitions
+        </h1>
+        <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
+          {exhibitionsPast.map((image, index) => {
             return (
               <Image
                 src={image.src}
