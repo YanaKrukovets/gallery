@@ -1,10 +1,16 @@
 import React from "react";
 import Artwork from "../components/Artwork";
 import Image from "next/image";
+import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
 import HomeBannerNew from "./HomeBannerNew";
 
 export default function HomePage() {
+  const [isCurrentOpen, setIsCurrentOpen] = useState(true);
+  const [isPastOpen, setIsPastOpen] = useState(false);
+
   const exhibitionsCurr = [
     {
       src: "/images/components/exhibitions/exhibitions7.webp",
@@ -24,14 +30,14 @@ export default function HomePage() {
       width: 250,
       height: 250,
     },
+  ];
+  const exhibitionsPast = [
     {
       src: "/images/components/exhibitions/exhibitions4.webp",
       alt: "exhibition",
       width: 250,
       height: 250,
     },
-  ];
-  const exhibitionsPast = [
     {
       src: "/images/components/exhibitions/exhibitions3.webp",
       alt: "exhibition Blackburn library",
@@ -140,46 +146,93 @@ export default function HomePage() {
     },
   ];
 
+  const toggleCurrent = () => {
+    setIsCurrentOpen(!isCurrentOpen);
+  };
+
+  const togglePast = () => {
+    setIsPastOpen(!isPastOpen);
+  };
+
   return (
     <div className="bg-lightGray pb-[40px]">
       <HomeBannerNew />
       <div className="max-w-wrapper mx-auto px-5">
-        <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
-          Current Exhibitions
-        </h1>
-        <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
-          {exhibitionsCurr.map((image, index) => {
-            return (
-              <Image
-                src={image.src}
-                alt={image.alt}
-                width={image.width}
-                height={image.height}
-                key={index}
-                priority={true}
-                className={`mx-auto object-cover`}
+        <div>
+          <button
+            className="text-[24px] sm:text-[20px] mb-[20px] pr-[15px] border-b-[3px] border-green uppercase w-[350px] md:w-full font-inka flex justify-between"
+            onClick={toggleCurrent}
+          >
+            Current Exhibitions
+            {!isCurrentOpen ? (
+              <FontAwesomeIcon
+                className="w-4 inline mt-[7px]"
+                icon={faAngleDown}
+                color="#2A5A51"
               />
-            );
-          })}
+            ) : (
+              <FontAwesomeIcon
+                className="w-4 inline mt-[7px]"
+                icon={faAngleUp}
+                color="#2A5A51"
+              />
+            )}
+          </button>
+
+          {isCurrentOpen && (
+            <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
+              {exhibitionsCurr.map((image, index) => {
+                return (
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    width={image.width}
+                    height={image.height}
+                    key={index}
+                    priority={true}
+                    className={`mx-auto object-cover`}
+                  />
+                );
+              })}
+            </div>
+          )}
         </div>
-        <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
+        <button
+          className="text-[24px] sm:text-[20px] mb-[20px] pr-[15px] border-b-[3px] border-green uppercase w-[350px]  md:w-full font-inka flex justify-between"
+          onClick={togglePast}
+        >
           Past Exhibitions
-        </h1>
-        <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
-          {exhibitionsPast.map((image, index) => {
-            return (
-              <Image
-                src={image.src}
-                alt={image.alt}
-                width={image.width}
-                height={image.height}
-                key={index}
-                priority={true}
-                className={`mx-auto object-cover`}
-              />
-            );
-          })}
-        </div>
+          {!isPastOpen ? (
+            <FontAwesomeIcon
+              className="w-4 inline mt-[7px]"
+              icon={faAngleDown}
+              color="#2A5A51"
+            />
+          ) : (
+            <FontAwesomeIcon
+              className="w-4 inline mt-[7px]"
+              icon={faAngleUp}
+              color="#2A5A51"
+            />
+          )}
+        </button>
+        {isPastOpen && (
+          <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
+            {exhibitionsPast.map((image, index) => {
+              return (
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  width={image.width}
+                  height={image.height}
+                  key={index}
+                  priority={true}
+                  className={`mx-auto object-cover`}
+                />
+              );
+            })}
+          </div>
+        )}
         <h1 className="text-[24px] sm:text-[20px] mb-[20px] border-b-[3px] border-green uppercase max-w-[350px] font-inka">
           Most recent artworks
         </h1>
