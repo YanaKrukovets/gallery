@@ -38,6 +38,11 @@ export default function Artwork({ image }) {
           <h2 className="text-[22px] font-anek font-[600] max-w-[190px] text-center leading-[24px] mt-[5px]">
             {image.name}
           </h2>
+          {image.price && (
+            <p className="text-center text-green text-[0.9rem]">
+              <b>{image.price}</b>
+            </p>
+          )}
           <p className="border-green border-b-[1px] border-t-[1px] py-[3px] my-[10px]">
             {image.size}
           </p>
@@ -71,6 +76,16 @@ export default function Artwork({ image }) {
               <h2 className="text-[22px] font-anek font-[600] text-center leading-[24px] mt-[5px]">
                 {image.name}
               </h2>
+              {image.price && (
+                <p className="text-center text-green text-[0.9rem]">
+                  <b>{image.price}</b>
+                </p>
+              )}
+              {image.message && (
+                <p className="text-center">
+                  <b>{image.message}</b>
+                </p>
+              )}
               <div
                 className={`border-green border-b-[2px] border-t-[2px] py-[5px] my-[10px] ${
                   image.buy

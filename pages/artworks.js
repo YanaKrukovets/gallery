@@ -424,6 +424,8 @@ export default function Artworks() {
     {
       src: "/images/components/artworks/canvas27.webp",
       alt: "Snow. Van Gogh style",
+      price: "$100",
+      message: "Currently on sale at Ottawa Bike Cafe",
       width: 130,
       height: 130,
       b: "my-[10px]",
@@ -431,11 +433,13 @@ export default function Artworks() {
       size: "8 inch X 8 inch",
 
       description:
-        "Original acrylic & oil painting. Beautiful colorful Nothern Lights and snowy mountain Hoverla. Wood panel. Acrylic & oil hand-painting. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic & oil painting. Beautiful colorful snowy day. Wood panel. Acrylic & oil hand-painting. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas26.webp",
       alt: "Road to home. Nothern lights",
+      price: "$100",
+      message: "Currently on sale at Ottawa Bike Cafe",
       width: 110,
       height: 80,
       name: "Road to home",
@@ -701,7 +705,7 @@ export default function Artworks() {
     },
   ];
 
-  const allImages = [...sunflowers, ...space, ...canvas, ...petr, ...images1];
+  const allImages = [...canvas, ...sunflowers, ...space, ...petr, ...images1];
   const [images, setImages] = useState(allImages);
 
   const [active1, setActive1] = useState(true);
