@@ -84,6 +84,13 @@ export default function Artwork({ image }) {
               {image.message && (
                 <p className="text-center">
                   <b>{image.message}</b>
+                  {image.link && (
+                    <a className="underline" target="_blank" href={image.link}>
+                      <b>
+                        <i>{image.linkName}</i>
+                      </b>
+                    </a>
+                  )}
                 </p>
               )}
               <div
@@ -98,16 +105,15 @@ export default function Artwork({ image }) {
                 </p>
                 {image.buy && (
                   <div
-                    className={`w-[90px] bg-[#2A5A51] hover:bg-[#2F655B] py-[7px] text-center ${
+                    className={`w-[200px] bg-[#2A5A51] hover:cursor-pointer hover:bg-[#2F655B] py-[7px] text-center ${
                       image.buy ? "sm:mt-[5px]" : ""
                     }`}
                   >
                     <a
-                      className="uppercase text-center text-white text-[24px] sm:text-[22px]"
-                      href={image.buy}
-                      target="_blank"
+                      className="uppercase text-center text-white text-[16px] sm:text-[14px]"
+                      href="mailto:krukovets.yana@gmail.com"
                     >
-                      <strong>Buy</strong>
+                      <strong>Contact me to Buy</strong>
                     </a>
                   </div>
                 )}

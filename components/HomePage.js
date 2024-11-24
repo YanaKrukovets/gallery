@@ -61,22 +61,26 @@ export default function HomePage() {
     {
       src: "/images/components/artworks/canvas24.webp",
       alt: "Hoverla. Mountain in Ukraine",
+      price: "$100",
       width: 130,
       height: 50,
       name: "Hoverla",
+      b: "my-[10px]",
       size: "12 inch X 16 inch",
-      buy: "https://www.etsy.com/ca/listing/1766348300/hand-painted-acrylic-oil-picture-wall",
+      buy: true,
       description:
         "Original acrylic & oil painting. Beautiful colorful mountain Hoverla with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas25.webp",
       alt: "Landscape",
+      price: "$100",
+      b: "my-[10px]",
       width: 130,
       height: 50,
       name: "Orange dreams",
       size: "12 inch X 16 inch",
-      buy: "https://www.etsy.com/ca/listing/1766348300/hand-painted-acrylic-oil-picture-wall",
+      buy: true,
       description:
         "Original acrylic & oil painting. Beautiful colorful sunrise with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
@@ -126,11 +130,12 @@ export default function HomePage() {
     {
       src: "/images/components/artworks/space6.webp",
       alt: "Black tree on the black space background with orange lights",
+      price: "$35",
       width: 150,
       height: 145,
       name: "Night view",
       size: "round, diameter - 4 inch",
-      buy: "https://www.gallea.ca/en/artists/yana-krukovets/artwork/93691",
+      buy: true,
       description:
         "Original multicolored round acrylic painting on the wood. Black tree on the orange-black space background. Acrylic hand-painting, wooden, epoxy resin coated. It can be used like a hot stand for cups or like a mini wall art",
     },
