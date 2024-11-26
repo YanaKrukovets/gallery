@@ -508,8 +508,10 @@ export default function Artworks() {
       alt: "green field with houses",
       width: 150,
       height: 60,
+      price: "$250",
       name: "Village",
-      size: "will be updated",
+      size: "23 inch X 19 inch",
+      buy: true,
       b: "my-[20px]",
       description:
         "Original acrylic painting. Village in the green field. Paper. Acrylic hand-painting, framed under glass.",
@@ -519,11 +521,13 @@ export default function Artworks() {
       alt: "colorful flowers under the mountains",
       width: 150,
       height: 60,
+      price: "$300",
+      buy: true,
       name: "Flowers field",
-      size: "will be updated",
+      size: "29 inch X 22 inch",
       b: "my-[20px]",
       description:
-        "Original acrylic painting. Beautiful colorful flowers field. Paper. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic painting. Beautiful colorful flowers field. Paper. Acrylic hand-painting, framed, gold metalic frame. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas20.webp",
@@ -551,7 +555,7 @@ export default function Artworks() {
       size: "12 inch X 16 inch",
 
       description:
-        "Original acrylic painting. Beautiful colorful sunrise on the lake. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+        "Original mixed media painting. Canvas. Acrylic, oil, pastel hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
 
     {
@@ -573,7 +577,9 @@ export default function Artworks() {
       width: 130,
       height: 50,
       name: "On the river",
-      size: "will be updated",
+      size: "19 inch X 16 inch",
+      buy: true,
+      price: "$250",
       b: "my-[20px]",
       description:
         "Original acrylic painting. On the river, fall in the forest. Paper. Acrylic hand-painting, framed, under glass",
@@ -583,8 +589,10 @@ export default function Artworks() {
       alt: "Pink tulips and white flowers",
       width: 130,
       height: 50,
+      price: "$250",
       name: "Spring flowers",
-      size: "will be updated",
+      buy: true,
+      size: "20 inch X 24 inch",
 
       description:
         "Original acrylic painting. Spring flowers, pink tulips and white flowers. Paper. Acrylic hand-painting, framed, under glass",
@@ -594,8 +602,10 @@ export default function Artworks() {
       alt: "Magic light in the mountains",
       width: 130,
       height: 50,
+      price: "$190",
+      buy: true,
       name: "Space light",
-      size: "will be updated",
+      size: "20 inch X 24 inch",
 
       description:
         "Original acrylic painting. Magic light in the mountains city. Paper. Acrylic hand-painting, framed, under glass",
@@ -605,8 +615,10 @@ export default function Artworks() {
       alt: "Yellow sunflower field",
       width: 110,
       height: 30,
+      price: "$50",
+      buy: true,
       name: "Sunflowers",
-      size: "5inch X 7inch",
+      size: "5 inch X 7 inch",
       b: "my-[20px]",
       description:
         "Original acrylic painting. Yellow sunflower field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
@@ -616,8 +628,10 @@ export default function Artworks() {
       alt: "Pink tulips field",
       width: 110,
       height: 30,
+      price: "$50",
+      buy: true,
       name: "Tulips field",
-      size: "5inch X 7inch",
+      size: "5 inch X 7 inch",
       b: "my-[20px]",
       description:
         "Original acrylic painting. Pink tulips field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
@@ -625,6 +639,8 @@ export default function Artworks() {
     {
       src: "/images/components/artworks/canvas13.webp",
       alt: "Pink sakura blossom",
+      price: "$150",
+      buy: true,
       width: 140,
       height: 60,
       name: "Sakura",
@@ -637,6 +653,8 @@ export default function Artworks() {
       alt: "Orange sunset at the field",
       width: 150,
       height: 70,
+      price: "$70",
+      buy: true,
       name: "Summer Sunset",
       size: "11 inch X 9 inch",
       b: "my-[20px]",
@@ -646,6 +664,8 @@ export default function Artworks() {
     {
       src: "/images/components/artworks/canvas10.webp",
       alt: "Magic blue Sky, yellow field and mountains",
+      price: "$80",
+      buy: true,
       width: 150,
       height: 70,
       name: "Magic Sky",
@@ -657,6 +677,8 @@ export default function Artworks() {
     {
       src: "/images/components/artworks/canvas9.webp",
       alt: "Pink lily on the river",
+      price: "$210",
+      buy: true,
       width: 140,
       height: 60,
       name: "Sound of Water",
@@ -665,8 +687,27 @@ export default function Artworks() {
         "Original acrylic painting. Bright big pink  water lily flowers and tree. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
+      src: "/images/components/artworks/canvas30.webp",
+      alt: "woman and big shadow in the forest",
+
+      price: "$210",
+      message: "Currently on sale at ",
+      link: "https://www.thenicheottawagallery.com/",
+      linkName: "The Niche Ottawa Gallery",
+      width: 150,
+      height: 80,
+      name: "Woman inside",
+      size: "12 inch X 16 inch",
+
+      description:
+        "Original acrylic & oil painting. Canvas. Hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+
+    {
       src: "/images/components/artworks/canvas8.webp",
       alt: "Red flowers on the green background",
+      price: "$200",
+      buy: true,
       width: 150,
       height: 70,
       name: "Green Spring",
@@ -711,6 +752,8 @@ export default function Artworks() {
     {
       src: "/images/components/artworks/canvas5.webp",
       alt: "An orange abstract",
+      price: "$150",
+      buy: true,
       width: 150,
       height: 70,
       name: "An Orange Day",
@@ -722,6 +765,8 @@ export default function Artworks() {
     {
       src: "/images/components/artworks/canvas4.webp",
       alt: "Night sky, black with white stars",
+      price: "$50",
+      buy: true,
       width: 150,
       height: 70,
       name: "Night sky",
@@ -735,6 +780,8 @@ export default function Artworks() {
     {
       src: "/images/components/artworks/canvas7.webp",
       alt: "Gold Eiffel Tower with the night background",
+      price: "$10",
+      buy: true,
       width: 150,
       height: 70,
       name: "Paris",
