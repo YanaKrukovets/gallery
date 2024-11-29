@@ -81,7 +81,7 @@ body {
 
 @media (min-width: 898px) {
   body {
-    position: relative !important;
+    position: relative;
   }
 }
 

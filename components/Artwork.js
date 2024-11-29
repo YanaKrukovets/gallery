@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import en from "../locales/en";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import fr from "../locales/fr";
 
@@ -21,6 +21,20 @@ export default function Artwork({ image }) {
   const closeModal = () => {
     setIsOpen(false);
   };
+
+  // disable scrolling
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.position = "fixed";
+      function handleClick(event) {}
+      window.addEventListener("click", handleClick);
+      return () => {
+        window.removeEventListener("click", handleClick);
+        document.body.style.position = "relative";
+      };
+    }
+    return () => (document.body.style.position = "relative");
+  }, [isOpen]);
 
   return (
     <>
