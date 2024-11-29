@@ -14,7 +14,7 @@ export default function Artworks() {
       width: 140,
       height: 140,
       name: "Sunflower Field",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -24,7 +24,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Sunflowers",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -34,7 +34,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Beautiful Sunflowers",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Beautiful yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -44,7 +44,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Sunflowers",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Beautiful yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -54,7 +54,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Sunflowers",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Lovely yellow sunflower field. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -64,7 +64,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Spring flowers",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Lovely red spring flowers. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -74,7 +74,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Flowers field",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Beautiful field with red spring flowers. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -84,7 +84,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "White flowers",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Lovely white spring flowers. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -94,7 +94,7 @@ export default function Artworks() {
       width: 150,
       height: 150,
       name: "Sakura blossom",
-      size: "hexagon, 6 inch X 6 inch",
+      size: "6 inch X 6 inch",
       description:
         "Lovely pink sakura blossom. Hand-painted, wooden, coated with epoxy resin in the wooden hexagon shadow box.",
     },
@@ -278,7 +278,7 @@ export default function Artworks() {
       width: 150,
       height: 70,
       name: "North Night",
-      size: "hexagon, 6 X 5 inch",
+      size: "6 X 5 inch",
       description:
         "Tree and North lights. Acrylic hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
     },
@@ -288,7 +288,7 @@ export default function Artworks() {
       width: 150,
       height: 70,
       name: "North Mountains",
-      size: "hexagon, 6 X 5 inch",
+      size: "6 X 5 inch",
       description:
         "Night North mountains on the purple-black space background. Acrylic hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
     },
@@ -298,7 +298,7 @@ export default function Artworks() {
       width: 150,
       height: 70,
       name: "Moon",
-      size: "hexagon, 6 X 5 inch",
+      size: "6 X 5 inch",
       description:
         "Gray moon. Original acrylic mini art. Hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
     },
@@ -545,17 +545,16 @@ export default function Artworks() {
         "Original acrylic painting. Beautiful colorful sunrise on the lake. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
-      src: "/images/components/artworks/canvas29.webp",
-      alt: "potency, woman power, star catching",
-
-      price: "SOLD",
-      width: 120,
-      height: 80,
-      name: "Star Catching",
-      size: "12 inch X 16 inch",
-
+      src: "/images/components/artworks/canvas35.webp",
+      alt: "Mountains landscape",
+      price: "$200",
+      buy: true,
+      width: 140,
+      height: 60,
+      name: "Nature power",
+      size: "will be updated",
       description:
-        "Original mixed media painting. Canvas. Acrylic, oil, pastel hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+        "Original acrylic & oil painting. Framed, under glass. Canvas, 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
 
     {
@@ -570,6 +569,17 @@ export default function Artworks() {
       b: "my-[5px]",
       description:
         "Original acrylic painting. Beautiful yellow sunflower field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas34.webp",
+      alt: "Girl with sunflowers",
+      price: "$150",
+      buy: true,
+      width: 140,
+      height: 60,
+      name: "Sunflower girl",
+      size: "will be updated",
+      description: "Original Acrylic hand-painting. Framed, under glass.",
     },
     {
       src: "/images/components/artworks/canvas18.webp",
@@ -623,6 +633,19 @@ export default function Artworks() {
       description:
         "Original acrylic painting. Yellow sunflower field. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
+    {
+      src: "/images/components/artworks/canvas33.webp",
+      alt: "Space, planets, tree",
+      price: "$200",
+      buy: true,
+      width: 90,
+      height: 40,
+      name: "Space",
+      size: "will be updated",
+      description:
+        "Original Acrylic hand-painting. Framed, under glass, metalic frame.",
+    },
+
     {
       src: "/images/components/artworks/canvas14.webp",
       alt: "Pink tulips field",
@@ -704,6 +727,19 @@ export default function Artworks() {
     },
 
     {
+      src: "/images/components/artworks/canvas32.webp",
+      alt: "Mountains and lake",
+      price: "$185",
+      buy: true,
+      width: 120,
+      height: 60,
+      name: "Lake",
+      size: "will be updated",
+      description:
+        "Original Acrylic hand-painting. Framed, under clear plastic sheet.",
+    },
+
+    {
       src: "/images/components/artworks/canvas8.webp",
       alt: "Red flowers on the green background",
       price: "$200",
@@ -720,11 +756,53 @@ export default function Artworks() {
       alt: "Three deers on the snow. Night view with big moon",
       width: 150,
       height: 70,
+      price: "$150",
       name: "Three deers",
       size: "16 inch X 12 inch",
       b: "my-[15px]",
+      link: "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      linkName: "Bob MacQuarrie Recreation Complex - Orléans",
+      message: "Currently on sale at ",
       description:
         "Three deers on the snow. Night view with big moon. Acrylic hand-painting. 100% bleached cotton. One coat of protective gloss varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas31.webp",
+      alt: "Sunflower field with mountains",
+      price: "$170",
+      buy: true,
+      width: 130,
+      height: 70,
+      name: "Sunflower Field",
+      size: "12 inch X 26 inch",
+      description:
+        "Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas36.webp",
+      alt: "Landscape, pink sunrise",
+      price: "$100",
+      b: "my-[10px]",
+      width: 130,
+      height: 50,
+      name: "Pink sunrise",
+      size: "12 inch X 16 inch",
+      buy: true,
+      description:
+        "Original acrylic & oil painting. Beautiful colorful sunrise with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas29.webp",
+      alt: "potency, woman power, star catching",
+
+      price: "SOLD",
+      width: 120,
+      height: 80,
+      name: "Star Catching",
+      size: "12 inch X 16 inch",
+
+      description:
+        "Original mixed media painting. Canvas. Acrylic, oil, pastel hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
       src: "/images/components/artworks/canvas11.webp",

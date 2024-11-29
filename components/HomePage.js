@@ -72,28 +72,16 @@ export default function HomePage() {
         "Original acrylic & oil painting. Beautiful colorful mountain Hoverla with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
-      src: "/images/components/artworks/canvas25.webp",
-      alt: "Landscape",
-      price: "$100",
-      b: "my-[10px]",
-      width: 130,
-      height: 50,
-      name: "Orange dreams",
-      size: "12 inch X 16 inch",
+      src: "/images/components/artworks/canvas32.webp",
+      alt: "Mountains and lake",
+      price: "$185",
       buy: true,
+      width: 120,
+      height: 60,
+      name: "Lake",
+      size: "will be updated",
       description:
-        "Original acrylic & oil painting. Beautiful colorful sunrise with flowers field. Cardboard. Acrylic hand-painting, framed. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
-    },
-    {
-      src: "/images/components/artworks/space12.webp",
-      alt: "Black tree on the black space background with purple northern lights",
-      width: 150,
-      height: 70,
-      name: "Night Tree",
-      size: "5 inch X 5 inch",
-
-      description:
-        "Black tree on the orange-black space background. Original mini wall art. Acrylic hand-painting, wooden, epoxy resin coated. Framed in square wooden shadow box.",
+        "Original Acrylic hand-painting. Framed, under clear plastic sheet.",
     },
     {
       src: "/images/components/artworks/petr6.webp",
@@ -126,7 +114,19 @@ export default function HomePage() {
       description:
         "Original acrylic painting. Bright big red flowers, small white and yellow flowers on the green background. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
+    {
+      src: "/images/components/artworks/canvas29.webp",
+      alt: "potency, woman power, star catching",
 
+      price: "SOLD",
+      width: 120,
+      height: 80,
+      name: "Star Catching",
+      size: "12 inch X 16 inch",
+
+      description:
+        "Original mixed media painting. Canvas. Acrylic, oil, pastel hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
     {
       src: "/images/components/artworks/space6.webp",
       alt: "Black tree on the black space background with orange lights",
@@ -145,7 +145,7 @@ export default function HomePage() {
       width: 150,
       height: 70,
       name: "Moon",
-      size: "hexagon, 6 X 5 inch",
+      size: "6 X 5 inch",
       description:
         "Gray moon. Original acrylic mini art. Hand-painting, wooden, epoxy resin coated. Framed in the square wooden shadow box.",
     },
