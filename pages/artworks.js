@@ -672,6 +672,28 @@ export default function Artworks() {
         "Original acrylic painting. Pink sakura blossom. Canvas. Acrylic hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
     },
     {
+      src: "/images/components/artworks/canvas38.webp",
+      alt: "Snowy mountain, deer",
+      price: "$100",
+      buy: true,
+      width: 150,
+      height: 60,
+      name: "Winter",
+      size: "will be updated",
+      description: "Original Acrylic & oil hand-painting. Framed.",
+    },
+    {
+      src: "/images/components/artworks/canvas37.webp",
+      alt: "Eiffel tower",
+      price: "$250",
+      buy: true,
+      width: 140,
+      height: 60,
+      name: "Eiffel tower",
+      size: "will be updated",
+      description: "Original Acrylic hand-painting. Framed.",
+    },
+    {
       src: "/images/components/artworks/canvas12.webp",
       alt: "Orange sunset at the field",
       width: 150,
@@ -803,6 +825,17 @@ export default function Artworks() {
 
       description:
         "Original mixed media painting. Canvas. Acrylic, oil, pastel hand-painting 100% bleached cotton. One coat of protective satin varnish are applied to protect the painting from UV rays and dust.",
+    },
+    {
+      src: "/images/components/artworks/canvas38.webp",
+      alt: "Snowy mountain, deer",
+      price: "$150",
+      buy: true,
+      width: 150,
+      height: 60,
+      name: "Christmas tree",
+      size: "will be updated",
+      description: "Original Acrylic & oil hand-painting. Framed.",
     },
     {
       src: "/images/components/artworks/canvas11.webp",
@@ -972,6 +1005,7 @@ export default function Artworks() {
                       setActive5(false);
                       setActive6(false);
                       setMobileExpanded(!mobileExpanded);
+                      document.getElementById("artworks").scroll(0, 0);
                     }}
                     href="#all"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -993,6 +1027,7 @@ export default function Artworks() {
                       setActive5(false);
                       setActive6(false);
                       setMobileExpanded(!mobileExpanded);
+                      document.getElementById("artworks").scroll(0, 0);
                     }}
                     href="#space"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -1012,6 +1047,7 @@ export default function Artworks() {
                       setActive5(false);
                       setActive6(false);
                       setMobileExpanded(!mobileExpanded);
+                      document.getElementById("artworks").scroll(0, 0);
                     }}
                     href="#petrykivka"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -1031,6 +1067,7 @@ export default function Artworks() {
                       setActive5(false);
                       setActive6(true);
                       setMobileExpanded(!mobileExpanded);
+                      document.getElementById("artworks").scroll(0, 0);
                     }}
                     href="#sunflowers"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -1050,6 +1087,7 @@ export default function Artworks() {
                       setActive5(false);
                       setActive6(false);
                       setMobileExpanded(!mobileExpanded);
+                      document.getElementById("artworks").scroll(0, 0);
                     }}
                     href="#cats"
                     className={`border-b-[2px] border-green p-[15px] hover:bg-lightGray active:bg-lightGray ${
@@ -1069,6 +1107,7 @@ export default function Artworks() {
                       setActive4(false);
                       setActive5(true);
                       setMobileExpanded(!mobileExpanded);
+                      document.getElementById("artworks").scroll(0, 0);
                     }}
                     href="#canvas"
                     className={`p-[10px] hover:bg-lightGray active:bg-lightGray ${
@@ -1080,7 +1119,10 @@ export default function Artworks() {
                 </div>
               </div>
 
-              <div className="flex mb-[30px] pt-[10px] w-[75%] pr-[20px] md:pr-0 md:w-full flex-wrap h-[600px] overflow-scroll md:mx-auto">
+              <div
+                className="flex mb-[30px] pt-[10px] w-[75%] pr-[20px] md:pr-0 md:w-full flex-wrap h-[600px] overflow-scroll md:mx-auto"
+                id="artworks"
+              >
                 {images.map((image, index) => {
                   return <Artwork image={image} key={index} />;
                 })}
