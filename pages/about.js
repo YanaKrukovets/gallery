@@ -114,7 +114,7 @@ export default function About() {
                 <strong>Where to buy my works?</strong>
               </p>
               <p className="text-[20px] mt-[15px] font-inka">
-                Buy original artworks{" "}
+                Buy original artworks
                 <a
                   role="button"
                   className="underline ml-[10px]"

@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/next-script-for-ga */
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
+import BackToTopButton from "../components/BackToTopButton";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -90,6 +91,7 @@ export default function Layout({ children }) {
         <div id="content" className="max-w-inner xxxl:px-0">
           {children}
         </div>
+        <BackToTopButton />
         <Footer />
       </main>
     </>

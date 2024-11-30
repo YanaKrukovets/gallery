@@ -112,7 +112,7 @@ export default function Contact() {
                   <strong>Where to buy my works?</strong>
                 </p>
                 <p className="text-[20px] mt-[10px]">
-                  Buy original artworks{" "}
+                  Buy original artworks
                   <a
                     role="button"
                     className="underline ml-[10px]"
