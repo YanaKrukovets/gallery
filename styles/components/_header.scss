@@ -297,16 +297,6 @@ header {
   }
 }
 
-@media (max-width: 576px) {
-  .connect-btn {
-    padding-left: 26px;
-    padding-right: 26px;
-    strong br,
-    span br {
-      display: none;
-    }
-  }
-}
 ul.submenu {
   position: absolute;
   left: 0px;
