@@ -19,7 +19,7 @@ export default function Footer() {
             <div className="flex md:mb-[10px]">
               <a
                 role="button"
-                className=""
+                className=" "
                 href="https://www.instagram.com/sunny_art87/"
                 target="_blank"
                 aria-label="link"
