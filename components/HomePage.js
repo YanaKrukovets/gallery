@@ -11,7 +11,8 @@ export default function HomePage() {
   const [isCurrentOpen, setIsCurrentOpen] = useState(true);
   const [isPastOpen, setIsPastOpen] = useState(false);
 
-  const exhibitionsCurr = [
+  const exhibitionsCurr = [];
+  const exhibitionsPast = [
     {
       src: "/images/components/exhibitions/exhibitions7.webp",
       alt: "exhibition",
@@ -30,8 +31,6 @@ export default function HomePage() {
       width: 250,
       height: 250,
     },
-  ];
-  const exhibitionsPast = [
     {
       src: "/images/components/exhibitions/exhibitions4.webp",
       alt: "exhibition",
@@ -186,6 +185,7 @@ export default function HomePage() {
 
           {isCurrentOpen && (
             <div className="flex my-[30px] w-full pr-[20px] md:pr-0 flex-wrap gap-[20px] justify-center">
+              {exhibitionsCurr.length <= 0 && <p>No current exhibitions</p>}
               {exhibitionsCurr.map((image, index) => {
                 return (
                   <Image
