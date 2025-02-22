@@ -199,6 +199,7 @@ export default function Header() {
                 role="button"
                 ref={dropdown}
                 id="nav-button"
+                aria-label="mobile menu button"
                 className={`${mobileNavExpanded ? "open" : ""} nav-button`}
                 onClick={() => {
                   setMobileNavExpanded(!mobileNavExpanded);
