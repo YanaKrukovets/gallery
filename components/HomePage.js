@@ -261,7 +261,10 @@ export default function HomePage() {
             <i>here</i>
           </a>
         </p>
-        <p className="mt-[20px] text-[24px] text-green pt-[15px] border-t-[2px] border-green font-inka">
+        <p
+          role="heading"
+          className="mt-[20px] text-[24px] text-green pt-[15px] border-t-[2px] border-green font-inka"
+        >
           <strong>Where to buy my works?</strong>
         </p>
         <p className="text-[20px] mt-[15px] font-inka">
@@ -281,6 +284,7 @@ export default function HomePage() {
           <a
             href="https://www.redbubble.com/people/sunnykaramelart/shop"
             target="_blank"
+            aria-label="Link to RedBubble website"
           >
             <i className="text-green underline">
               <strong>here</strong>

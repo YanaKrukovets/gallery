@@ -108,7 +108,10 @@ export default function Contact() {
                     sunny_art87
                   </a>
                 </div>
-                <p className="mt-[20px] text-[24px] text-green pt-[10px] border-t-[2px] border-green">
+                <p
+                  role="heading"
+                  className="mt-[20px] text-[24px] text-green pt-[10px] border-t-[2px] border-green"
+                >
                   <strong>Where to buy my works?</strong>
                 </p>
                 <p className="text-[20px] mt-[10px]">
@@ -128,6 +131,7 @@ export default function Contact() {
                   <a
                     href="https://www.redbubble.com/people/sunnykaramelart/shop"
                     target="_blank"
+                    aria-label="Link to RedBubble website"
                   >
                     <i className="text-green underline">
                       <strong>here</strong>

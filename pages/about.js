@@ -110,7 +110,10 @@ export default function About() {
                   <i>here</i>
                 </a>
               </p>
-              <p className="mt-[20px] text-[24px] text-green pt-[15px] border-t-[2px] border-green font-inka">
+              <p
+                role="heading"
+                className="mt-[20px] text-[24px] text-green pt-[15px] border-t-[2px] border-green font-inka"
+              >
                 <strong>Where to buy my works?</strong>
               </p>
               <p className="text-[20px] mt-[15px] font-inka">
@@ -129,6 +132,7 @@ export default function About() {
                 Buy prints{" "}
                 <a
                   href="https://www.redbubble.com/people/sunnykaramelart/shop"
+                  aria-label="Link to RedBubble website"
                   target="_blank"
                 >
                   <i className="text-green underline">
